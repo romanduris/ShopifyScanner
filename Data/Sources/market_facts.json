@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-08",
+  "market_total": {
+    "value": 16000,
+    "relation": "greater_than",
+    "source_url": "https://apps.shopify.com/",
+    "note": "Shopify uvádza viac než 16 000 aplikácií. Publikovaná hranica, nie presný súpis aktívnych aplikácií."
+  },
+  "categories": [
+    {"id": "sales-channels", "name": "Predajné kanály", "name_en": "Sales channels", "market_count": null},
+    {"id": "finding-products", "name": "Hľadanie produktov", "name_en": "Finding products", "market_count": null},
+    {"id": "selling-products", "name": "Predaj produktov", "name_en": "Selling products", "market_count": null},
+    {"id": "orders-and-shipping", "name": "Objednávky a doprava", "name_en": "Orders and shipping", "market_count": null},
+    {"id": "store-design", "name": "Dizajn obchodu", "name_en": "Store design", "market_count": null},
+    {"id": "marketing-and-conversion", "name": "Marketing a konverzia", "name_en": "Marketing and conversion", "market_count": null},
+    {"id": "store-management", "name": "Správa obchodu", "name_en": "Store management", "market_count": null}
+  ],
+  "collection": {
+    "mode": "curated_import",
+    "representative_sample": false,
+    "note": "Ručne overené verejné údaje a importy. Modul neposiela sieťové požiadavky. Vzorka nereprezentuje celý trh.",
+    "automated_access_source": "https://www.shopify.com/legal/terms",
+    "automated_access_section": "1.9",
+    "automated_access_checked_at": "2026-09-08"
+  }
+}

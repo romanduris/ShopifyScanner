@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-08",
+  "market": {
+    "value": 16000,
+    "relation": "greater_than",
+    "source_url": "https://apps.shopify.com/",
+    "note": "Shopify uvádza viac než 16 000 aplikácií. Publikovaná hranica, nie presný súpis aktívnych aplikácií.",
+    "observed_at": "2026-09-08",
+    "earning_apps": null,
+    "total_mrr_usd": null
+  },
+  "scope": "curated_sample",
+  "sample_size": 2,
+  "oldest_app_observation": "2026-09-08",
+  "newest_app_observation": "2026-09-08",
+  "pricing_models": {
+    "free": 0,
+    "freemium": 2,
+    "paid": 0,
+    "free_to_install": 0,
+    "unknown": 0
+  },
+  "paid_plan_count": 2,
+  "entry_monthly_usd_median": 6.49,
+  "price_sample_size": 2,
+  "review_count_total": 152,
+  "reviews_known_count": 2,
+  "zero_reviews_count": 0,
+  "rating_median": 4.65,
+  "ratings_known_count": 2,
+  "review_bands": {
+    "0": 0,
+    "1–9": 0,
+    "10–99": 1,
+    "100–999": 1,
+    "1 000+": 0,
+    "Nezistené": 0
+  },
+  "new_30d": 0,
+  "new_90d": 0,
+  "launches_known_count": 2,
+  "developer_count": 2,
+  "solo_claim_count": 1,
+  "built_for_shopify_count": 2,
+  "bfs_known_count": 2,
+  "revenue_disclosed_apps": 1,
+  "revenue_disclosures": [
+    {
+      "kind": "cumulative_revenue",
+      "amount": 735.66,
+      "currency": "USD",
+      "period_label": "Prvý rok podľa autora",
+      "published_at": "2025-07-20",
+      "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
+      "evidence_type": "developer_statement",
+      "note": "Celkové historické príjmy; nejde o MRR ani zisk. Tvrdenie autora, bez nezávislého auditu.",
+      "app_name": "ezInvoices | One-Click Invoice",
+      "app_url": "https://apps.shopify.com/ezinvoices"
+    }
+  ],
+  "categories": [
+    {
+      "id": "sales-channels",
+      "name": "Predajné kanály",
+      "name_en": "Sales channels",
+      "market_count": null,
+      "sample_count": 0,
+      "paid_plan_count": 0,
+      "reviews_known_count": 0,
+      "top3_review_share": null
+    },
+    {
+      "id": "finding-products",
+      "name": "Hľadanie produktov",
+      "name_en": "Finding products",
+      "market_count": null,
+      "sample_count": 0,
+      "paid_plan_count": 0,
+      "reviews_known_count": 0,
+      "top3_review_share": null
+    },
+    {
+      "id": "selling-products",
+      "name": "Predaj produktov",
+      "name_en": "Selling products",
+      "market_count": null,
+      "sample_count": 1,
+      "paid_plan_count": 1,
+      "reviews_known_count": 1,
+      "top3_review_share": 1.0
+    },
+    {
+      "id": "orders-and-shipping",
+      "name": "Objednávky a doprava",
+      "name_en": "Orders and shipping",
+      "market_count": null,
+      "sample_count": 1,
+      "paid_plan_count": 1,
+      "reviews_known_count": 1,
+      "top3_review_share": 1.0
+    },
+    {
+      "id": "store-design",
+      "name": "Dizajn obchodu",
+      "name_en": "Store design",
+      "market_count": null,
+      "sample_count": 1,
+      "paid_plan_count": 1,
+      "reviews_known_count": 1,
+      "top3_review_share": 1.0
+    },
+    {
+      "id": "marketing-and-conversion",
+      "name": "Marketing a konverzia",
+      "name_en": "Marketing and conversion",
+      "market_count": null,
+      "sample_count": 0,
+      "paid_plan_count": 0,
+      "reviews_known_count": 0,
+      "top3_review_share": null
+    },
+    {
+      "id": "store-management",
+      "name": "Správa obchodu",
+      "name_en": "Store management",
+      "market_count": null,
+      "sample_count": 0,
+      "paid_plan_count": 0,
+      "reviews_known_count": 0,
+      "top3_review_share": null
+    }
+  ],
+  "apps": [
+    {
+      "url": "https://apps.shopify.com/best-fit-size-charts-size-guides",
+      "name": "BF Size Chart & Size Guide",
+      "developer": "Relentless Apps",
+      "developer_url": "https://www.relentlessapps.com/",
+      "observed_at": "2026-09-08",
+      "launched_at": "2018-10-01",
+      "category_ids": [
+        "selling-products",
+        "store-design"
+      ],
+      "category_source_urls": [
+        "https://apps.shopify.com/categories/store-design-product-display-product-comparison/all",
+        "https://apps.shopify.com/categories/selling-products-custom-products-product-variants/all"
+      ],
+      "rating": 4.7,
+      "review_count": 139,
+      "pricing_model": "freemium",
+      "entry_monthly_usd": 5.99,
+      "built_for_shopify": true,
+      "team": {
+        "status": "small_team",
+        "evidence_type": "developer_statement",
+        "statement_date": null,
+        "source_url": "https://apps.shopify.com/reviews/1579229?locale=fi",
+        "note": "Vývojár v odpovedi uvádza dvojčlenný tím. Dátum poslednej úpravy tvrdenia nepoznáme."
+      },
+      "revenue_disclosures": []
+    },
+    {
+      "url": "https://apps.shopify.com/ezinvoices",
+      "name": "ezInvoices | One-Click Invoice",
+      "developer": "ezApps",
+      "developer_url": "https://apps.shopify.com/partners/done-well-marketing",
+      "observed_at": "2026-09-08",
+      "launched_at": "2024-07-22",
+      "category_ids": [
+        "orders-and-shipping"
+      ],
+      "category_source_urls": [
+        "https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts/all"
+      ],
+      "rating": 4.6,
+      "review_count": 13,
+      "pricing_model": "freemium",
+      "entry_monthly_usd": 6.99,
+      "built_for_shopify": true,
+      "team": {
+        "status": "solo",
+        "evidence_type": "developer_statement",
+        "statement_date": "2025-07-20",
+        "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
+        "note": "Historické vyjadrenie autora o sólo vývoji; dnešná veľkosť tímu nie je nezávisle potvrdená."
+      },
+      "revenue_disclosures": [
+        {
+          "kind": "cumulative_revenue",
+          "amount": 735.66,
+          "currency": "USD",
+          "period_label": "Prvý rok podľa autora",
+          "published_at": "2025-07-20",
+          "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
+          "evidence_type": "developer_statement",
+          "note": "Celkové historické príjmy; nejde o MRR ani zisk. Tvrdenie autora, bez nezávislého auditu."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Vzorka nie je reprezentatívna pre celý trh.",
+    "Aplikácie môžu patriť do viacerých kategórií; počty sa nesčítavajú.",
+    "Platený plán nepreukazuje príjmy ani zisk.",
+    "Historické vyjadrenia o tíme nemusia opisovať dnešný stav.",
+    "Opakované spracovanie rovnakých vstupov nie je nové meranie trhu."
+  ],
+  "source_fingerprint": "816c56a009c9d201ddcf6bfa74129e15d47f1a3d16e37e6f6dae812991c877fc",
+  "review_deltas": {
+    "1": {
+      "net_change": null,
+      "matched_apps": 0
+    },
+    "7": {
+      "net_change": null,
+      "matched_apps": 0
+    },
+    "30": {
+      "net_change": null,
+      "matched_apps": 0
+    }
+  },
+  "snapshot_count": 1
+}
