@@ -20,18 +20,18 @@
         "evidence_type": "developer_statement",
         "statement_date": "2025-07-20",
         "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
-        "note": "Historické vyjadrenie autora o sólo vývoji; dnešná veľkosť tímu nie je nezávisle potvrdená."
+        "note": "Historical developer statement about solo development; the current team size is not independently confirmed."
       },
       "revenue_disclosures": [
         {
           "kind": "cumulative_revenue",
           "amount": 735.66,
           "currency": "USD",
-          "period_label": "Prvý rok podľa autora",
+          "period_label": "First year, according to the developer",
           "published_at": "2025-07-20",
           "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
           "evidence_type": "developer_statement",
-          "note": "Celkové historické príjmy; nejde o MRR ani zisk. Tvrdenie autora, bez nezávislého auditu."
+          "note": "Historical total revenue, not MRR or profit. Developer statement without independent auditing."
         }
       ]
     },
@@ -54,7 +54,7 @@
         "evidence_type": "developer_statement",
         "statement_date": null,
         "source_url": "https://apps.shopify.com/reviews/1579229?locale=fi",
-        "note": "Vývojár v odpovedi uvádza dvojčlenný tím. Dátum poslednej úpravy tvrdenia nepoznáme."
+        "note": "The developer describes a two-person team in a reply. The last revision date of the statement is unknown."
       },
       "revenue_disclosures": []
     }

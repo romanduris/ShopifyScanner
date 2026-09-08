@@ -18,14 +18,14 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
 MODELS = {
-    "free": "Bezplatné",
+    "free": "Free",
     "freemium": "Freemium",
-    "paid": "Platené",
-    "free_to_install": "Inštalácia zdarma · ďalšie poplatky možné",
-    "unknown": "Neznámy model",
+    "paid": "Paid",
+    "free_to_install": "Free to install · other charges may apply",
+    "unknown": "Unknown model",
 }
-TEAMS = {"solo": "Sólo · tvrdenie autora", "small_team": "Malý tím · tvrdenie autora",
-         "company": "Firma", "unknown": "Nezistené"}
+TEAMS = {"solo": "Solo · developer statement", "small_team": "Small team · developer statement",
+         "company": "Company", "unknown": "Unknown"}
 
 
 def read_json(path):
@@ -39,18 +39,18 @@ def encode_json(value):
 def valid_date(value, as_of):
     parsed = date.fromisoformat(value)
     if parsed > as_of:
-        raise ValueError(f"Dátum {value} je po dátume výpočtu {as_of}.")
+        raise ValueError(f"Date {value} is after the calculation date {as_of}.")
     return parsed
 
 
 def safe_url(value):
     if not isinstance(value, str):
-        raise ValueError("Zdroj musí byť HTTPS URL.")
+        raise ValueError("The source must be an HTTPS URL.")
     parts = urlsplit(value)
     if parts.scheme != "https" or not parts.hostname or parts.username or parts.password:
-        raise ValueError(f"Neplatná HTTPS URL: {value!r}")
+        raise ValueError(f"Invalid HTTPS URL: {value!r}")
     if any(char.isspace() for char in value):
-        raise ValueError("URL nesmie obsahovať medzery.")
+        raise ValueError("URLs must not contain whitespace.")
     return value
 
 
@@ -58,34 +58,34 @@ def canonical_app_url(value):
     parts = urlsplit(safe_url(value))
     slug = parts.path.strip("/")
     if parts.netloc != "apps.shopify.com" or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
-        raise ValueError(f"Očakávaná priama Shopify App Store URL: {value!r}")
+        raise ValueError(f"Expected a direct Shopify App Store URL: {value!r}")
     if slug in {"categories", "partners", "reviews", "search", "stories"}:
-        raise ValueError("URL musí identifikovať aplikáciu.")
+        raise ValueError("The URL must identify an app.")
     return f"https://apps.shopify.com/{slug}"
 
 
 def number(value, minimum=0, maximum=None, integer=False):
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
-        raise ValueError(f"Neplatné číslo: {value!r}")
+        raise ValueError(f"Invalid number: {value!r}")
     if value < minimum or (maximum is not None and value > maximum) or (integer and not isinstance(value, int)):
-        raise ValueError(f"Číslo mimo povoleného rozsahu: {value!r}")
+        raise ValueError(f"Number outside the allowed range: {value!r}")
 
 
 def validate_inputs(facts, records, as_of):
     if facts.get("schema_version") != 1 or records.get("schema_version") != 1:
-        raise ValueError("Nepodporovaná verzia vstupov.")
+        raise ValueError("Unsupported input schema version.")
     valid_date(facts["observed_at"], as_of)
     total = facts["market_total"]
     number(total["value"], integer=True)
     if total["relation"] not in {"exact", "greater_than", "at_least"}:
-        raise ValueError("Neplatný typ celkového počtu.")
+        raise ValueError("Invalid market total relation.")
     safe_url(total["source_url"])
     ids = [c["id"] for c in facts["categories"]]
     if len(ids) != len(set(ids)) or not ids:
-        raise ValueError("Kategórie musia mať unikátne ID.")
+        raise ValueError("Categories must have unique IDs.")
     for category in facts["categories"]:
         if not re.fullmatch(r"[a-z]+(?:-[a-z]+)*", category["id"]):
-            raise ValueError("Neplatné ID kategórie.")
+            raise ValueError("Invalid category ID.")
         if category.get("market_count") is not None:
             number(category["market_count"], integer=True)
             safe_url(category["source_url"])
@@ -98,10 +98,10 @@ def validate_inputs(facts, records, as_of):
         if app.get("launched_at"):
             valid_date(app["launched_at"], date.fromisoformat(app["observed_at"]))
         if not app["name"].strip() or not app["developer"].strip():
-            raise ValueError("Chýba názov alebo vývojár.")
+            raise ValueError("Missing app name or developer.")
         safe_url(app["developer_url"])
         if not set(app["category_ids"]).issubset(ids):
-            raise ValueError(f"Neznáma kategória: {app['name']}")
+            raise ValueError(f"Unknown category: {app['name']}")
         app["category_ids"] = sorted(set(app["category_ids"]))
         for source in app.get("category_source_urls", []):
             safe_url(source)
@@ -110,35 +110,35 @@ def validate_inputs(facts, records, as_of):
         if app.get("rating") is not None:
             number(app["rating"], minimum=1, maximum=5)
             if app.get("review_count") == 0:
-                raise ValueError("Aplikácia bez recenzií musí mať rating null.")
+                raise ValueError("An app without reviews must have a null rating.")
         if app["pricing_model"] not in MODELS:
-            raise ValueError("Neplatný cenový model.")
+            raise ValueError("Invalid pricing model.")
         if app.get("entry_monthly_usd") is not None:
             number(app["entry_monthly_usd"], minimum=0.01)
             if app["pricing_model"] == "free":
-                raise ValueError("Bezplatná aplikácia nemôže mať platenú vstupnú cenu.")
+                raise ValueError("A free app cannot have a paid entry price.")
         if app.get("built_for_shopify") is not None and not isinstance(app["built_for_shopify"], bool):
-            raise ValueError("built_for_shopify musí byť boolean alebo null.")
+            raise ValueError("built_for_shopify must be a boolean or null.")
         team = app.get("team", {"status": "unknown"})
         if team["status"] not in TEAMS:
-            raise ValueError("Neplatný stav tímu.")
+            raise ValueError("Invalid team status.")
         if team["status"] != "unknown":
             safe_url(team["source_url"])
             if team["status"] in {"solo", "small_team"} and team.get("evidence_type") != "developer_statement":
-                raise ValueError("Sólo alebo malý tím vyžaduje priame vyjadrenie vývojára.")
+                raise ValueError("Solo or small-team status requires a direct developer statement.")
             if team.get("statement_date"):
                 valid_date(team["statement_date"], as_of)
         for revenue in app.get("revenue_disclosures", []):
             if revenue["kind"] not in {"cumulative_revenue", "mrr", "arr"}:
-                raise ValueError("Neplatný typ zverejnených príjmov.")
+                raise ValueError("Invalid revenue disclosure type.")
             number(revenue["amount"])
             safe_url(revenue["source_url"])
             valid_date(revenue["published_at"], as_of)
             if not re.fullmatch(r"[A-Z]{3}", revenue["currency"]) or not revenue["period_label"].strip():
-                raise ValueError("Príjem musí mať menu a obdobie.")
+                raise ValueError("Revenue must include a currency and a period.")
         old = unique.get(app["url"])
         if old and old["observed_at"] == app["observed_at"] and old != app:
-            raise ValueError(f"Konfliktné záznamy v rovnaký deň: {app['url']}")
+            raise ValueError(f"Conflicting records on the same date: {app['url']}")
         if not old or app["observed_at"] > old["observed_at"]:
             unique[app["url"]] = app
     return sorted(unique.values(), key=lambda app: app["url"])
@@ -180,7 +180,7 @@ def summarize(facts, apps, as_of):
         "rating_median": statistics.median(ratings) if ratings else None, "ratings_known_count": len(ratings),
         "review_bands": {"0": sum(n == 0 for n in reviews), "1–9": sum(1 <= n < 10 for n in reviews),
                          "10–99": sum(10 <= n < 100 for n in reviews), "100–999": sum(100 <= n < 1000 for n in reviews),
-                         "1 000+": sum(n >= 1000 for n in reviews), "Nezistené": len(apps) - len(reviews)},
+                         "1,000+": sum(n >= 1000 for n in reviews), "Unknown": len(apps) - len(reviews)},
         "new_30d": sum(0 <= (as_of - d).days < 30 for d in launches),
         "new_90d": sum(0 <= (as_of - d).days < 90 for d in launches), "launches_known_count": len(launches),
         "developer_count": len({a["developer_url"].rstrip('/') for a in apps}),
@@ -189,11 +189,11 @@ def summarize(facts, apps, as_of):
         "bfs_known_count": sum(a.get("built_for_shopify") is not None for a in apps),
         "revenue_disclosed_apps": sum(bool(a.get("revenue_disclosures")) for a in apps),
         "revenue_disclosures": disclosures, "categories": categories, "apps": apps,
-        "limitations": ["Vzorka nie je reprezentatívna pre celý trh.",
-                        "Aplikácie môžu patriť do viacerých kategórií; počty sa nesčítavajú.",
-                        "Platený plán nepreukazuje príjmy ani zisk.",
-                        "Historické vyjadrenia o tíme nemusia opisovať dnešný stav.",
-                        "Opakované spracovanie rovnakých vstupov nie je nové meranie trhu."]}
+        "limitations": ["The sample is not representative of the entire market.",
+                        "Apps can belong to multiple categories; category counts are not additive.",
+                        "A paid plan does not establish revenue or profit.",
+                        "Historical team statements may not reflect the current team.",
+                        "Processing the same inputs again is not a new market observation."]}
 
 
 def review_deltas(apps, history, as_of):
@@ -205,7 +205,7 @@ def review_deltas(apps, history, as_of):
             for app in snapshot.get("apps", []):
                 if app["observed_at"] == target and app.get("review_count") is not None:
                     if app["url"] in prior and prior[app["url"]] != app["review_count"]:
-                        raise ValueError("História obsahuje konfliktné merania recenzií.")
+                        raise ValueError("History contains conflicting review observations.")
                     prior[app["url"]] = app["review_count"]
         pairs = [a["review_count"] - prior[a["url"]] for a in apps
                  if a["observed_at"] == as_of.isoformat() and a.get("review_count") is not None and a["url"] in prior]
@@ -218,7 +218,7 @@ def esc(value):
 
 
 def fmt(value, decimals=0):
-    return "—" if value is None else f"{value:,.{decimals}f}".replace(",", " ").replace(".", ",")
+    return "—" if value is None else f"{value:,.{decimals}f}"
 
 
 def money(value):
@@ -233,74 +233,75 @@ def render_dashboard(stats):
     s = stats
     n = s["sample_size"]
     total = fmt(s["market"]["value"]) + ({"greater_than": "+", "at_least": "+", "exact": ""}[s["market"]["relation"]])
-    total_note = {"greater_than": "viac než · údaj Shopify", "at_least": "aspoň · údaj zdroja", "exact": "presný počet podľa zdroja"}[s["market"]["relation"]]
+    total_note = {"greater_than": "more than · reported by Shopify", "at_least": "at least · reported by source", "exact": "exact count reported by source"}[s["market"]["relation"]]
     def card(label, value, note, primary=False):
         return f'<article class="stat-card{" primary" if primary else ""}"><span class="stat-label">{esc(label)}</span><strong>{esc(value)}</strong><small>{esc(note)}</small></article>'
-    cards = card("Aplikácie na trhu", total, total_note, True)
-    cards += card("Hlavné kategórie", len(s["categories"]), "taxonómia Shopify")
-    cards += card("Analyzované aplikácie", n, "ručne overená vzorka")
-    cards += card("S plateným plánom", s["paid_plan_count"], f"z {n} aplikácií vo vzorke")
-    cards += card("Vývojári vo vzorke", s["developer_count"], "unikátni vydavatelia")
-    cards += card("Príjmy celého trhu", "Nezistené", "MRR ani počet zarábajúcich")
+    cards = card("Apps in the marketplace", total, total_note, True)
+    cards += card("Main categories", len(s["categories"]), "Shopify taxonomy")
+    cards += card("Analyzed apps", n, "manually verified sample")
+    cards += card("With a paid plan", s["paid_plan_count"], f"out of {n} sampled apps")
+    cards += card("Developers in sample", s["developer_count"], "unique publishers")
+    cards += card("Market-wide revenue", "Unknown", "MRR and earning app count unknown")
     category_rows = ""
     max_sample = max((c["sample_count"] for c in s["categories"]), default=0)
     for c in s["categories"]:
         width = 100 * c["sample_count"] / max_sample if max_sample else 0
-        market_count = "Nezistené" if c.get("market_count") is None else link(c["source_url"], fmt(c["market_count"]))
-        category_rows += f'<tr><td><strong>{link("https://apps.shopify.com/categories/" + c["id"], c["name"])}</strong><small>{esc(c["name_en"])}</small></td><td class="muted">{market_count}</td><td><div class="bar-cell"><span class="bar-track"><span style="width:{width:.2f}%"></span></span><b>{c["sample_count"]}</b></div></td><td class="numeric">{c["paid_plan_count"]}</td></tr>'
+        market_count = "Unknown" if c.get("market_count") is None else link(c["source_url"], fmt(c["market_count"]))
+        category_rows += f'<tr><td><strong>{link("https://apps.shopify.com/categories/" + c["id"], c["name"])}</strong></td><td class="muted">{market_count}</td><td><div class="bar-cell"><span class="bar-track"><span style="width:{width:.2f}%"></span></span><b>{c["sample_count"]}</b></div></td><td class="numeric">{c["paid_plan_count"]}</td></tr>'
     price_rows = ""
     for model, label in MODELS.items():
         count = s["pricing_models"][model]
         percent = 100 * count / n if n else None
         price_rows += f'<div class="distribution-row"><span>{esc(label)}</span><b>{count}</b><small>{fmt(percent)} %</small></div>'
-    more_cards = card("Vstupný platený plán", money(s["entry_monthly_usd_median"]), f"medián / mesiac · {s['price_sample_size']} známych cien")
-    more_cards += card("Bez recenzií", f"{s['zero_reviews_count']} / {s['reviews_known_count']}", "z aplikácií so známym počtom")
-    more_cards += card("Nové za 30 / 90 dní", f"{s['new_30d']} / {s['new_90d']}", f"{s['launches_known_count']} známych dátumov uvedenia")
-    more_cards += card("Doložený sólo vývoj", s["solo_claim_count"], "historické tvrdenia autorov")
-    more_cards += card("Built for Shopify", f"{s['built_for_shopify_count']} / {s['bfs_known_count']}", "zo známych stavov vo vzorke")
-    more_cards += card("Medián hodnotenia", fmt(s["rating_median"], 2), f"{s['ratings_known_count']} hodnotených aplikácií")
+    more_cards = card("Entry paid plan", money(s["entry_monthly_usd_median"]), f"median / month · {s['price_sample_size']} known prices")
+    more_cards += card("Without reviews", f"{s['zero_reviews_count']} / {s['reviews_known_count']}", "among apps with known counts")
+    more_cards += card("New in 30 / 90 days", f"{s['new_30d']} / {s['new_90d']}", f"{s['launches_known_count']} known launch dates")
+    more_cards += card("Documented solo development", s["solo_claim_count"], "historical developer statements")
+    more_cards += card("Built for Shopify", f"{s['built_for_shopify_count']} / {s['bfs_known_count']}", "among known statuses in sample")
+    more_cards += card("Median rating", fmt(s["rating_median"], 2), f"{s['ratings_known_count']} rated apps")
     app_rows = ""
     for app in s["apps"]:
         team = app.get("team", {"status": "unknown"})
         team_label = TEAMS[team["status"]]
         team_text = link(team["source_url"], team_label) if team.get("source_url") else esc(team_label)
-        team_date = team.get("statement_date") or "dátum tvrdenia nezistený"
+        team_date = team.get("statement_date") or "statement date unknown"
         app_rows += f'<tr><td><strong>{link(app["url"], app["name"])}</strong><small>{esc(app["developer"])}</small></td><td><span class="badge">{esc(MODELS[app["pricing_model"]])}</span></td><td class="numeric">{money(app.get("entry_monthly_usd"))}</td><td class="numeric">{fmt(app.get("rating"), 1)}</td><td class="numeric">{fmt(app.get("review_count"))}</td><td>{team_text}<small>{esc(team_date)}</small></td><td>{esc(app["observed_at"])}</td></tr>'
     if not app_rows:
-        app_rows = '<tr><td colspan="7" class="empty">Zatiaľ nie sú importované žiadne aplikácie.</td></tr>'
+        app_rows = '<tr><td colspan="7" class="empty">No apps have been imported yet.</td></tr>'
     revenue_rows = ""
-    revenue_labels = {"cumulative_revenue": "Celkové príjmy za obdobie", "mrr": "MRR k dátumu zdroja", "arr": "ARR k dátumu zdroja"}
+    revenue_labels = {"cumulative_revenue": "Total revenue for the period", "mrr": "MRR as of the source date", "arr": "ARR as of the source date"}
     for r in s["revenue_disclosures"]:
         revenue_rows += f'<tr><td><strong>{esc(r["app_name"])}</strong><small>{esc(r["period_label"])}</small></td><td><strong>{fmt(r["amount"], 2)} {esc(r["currency"])}</strong><small>{esc(revenue_labels[r["kind"]])}</small></td><td>{link(r["source_url"], r["published_at"])}</td></tr>'
     if not revenue_rows:
-        revenue_rows = '<tr><td colspan="3" class="empty">Zatiaľ nemáme doložené vyjadrenia o príjmoch.</td></tr>'
-    histogram = "".join(f'<div class="distribution-row"><span>{esc(band)} recenzií</span><b>{count}</b><small>aplikácií</small></div>' for band, count in s["review_bands"].items())
+        revenue_rows = '<tr><td colspan="3" class="empty">No sourced revenue disclosures are available yet.</td></tr>'
+    histogram = "".join(f'<div class="distribution-row"><span>{esc(band)} reviews</span><b>{count}</b><small>apps</small></div>' for band, count in s["review_bands"].items())
     delta_cards = ""
     for days, delta in s["review_deltas"].items():
         value = fmt(delta["net_change"])
         if delta["net_change"] is not None and delta["net_change"] > 0:
             value = "+" + value
-        delta_cards += f'<div class="trend-stat"><span>{days} dní</span><strong>{value}</strong><small>{delta["matched_apps"]} porovnateľných aplikácií</small></div>'
+        day_label = "day" if days == "1" else "days"
+        delta_cards += f'<div class="trend-stat"><span>{days} {day_label}</span><strong>{value}</strong><small>{delta["matched_apps"]} matched apps</small></div>'
     source_items = "".join(f'<li>{esc(note)}</li>' for note in s["limitations"])
-    category_sources = "".join(f'<li>{esc(a["name"])}: {" · ".join(link(u, "Kategória") for u in a.get("category_source_urls", []))}</li>' for a in s["apps"])
+    category_sources = "".join(f'<li>{esc(a["name"])}: {" · ".join(link(u, "Category") for u in a.get("category_source_urls", []))}</li>' for a in s["apps"])
     return f'''<!doctype html>
-<html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Shopify Opportunity Scanner: prehľad trhu, cenových modelov a overených údajov o aplikáciách.">
-<title>Shopify Opportunity Scanner · Prehľad trhu</title><link rel="stylesheet" href="assets/styles.css"></head>
-<body><header class="topbar"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">S</span><span>SHOPIFY<span class="brand-accent">SCANNER</span></span></a><nav aria-label="Navigácia"><a class="active" href="#market">Prehľad trhu</a><a href="#apps">Aplikácie</a><a href="#sources">Zdroje</a></nav><span class="scan-status"><i aria-hidden="true"></i>Údaje trhu: {esc(s['market']['observed_at'])}</span></header>
-<main><section id="market" class="intro"><div><span class="eyebrow">SHOPIFY OPPORTUNITY SCANNER</span><h1>Prehľad trhu</h1><p>Od prehľadu ekosystému k príležitosti pre jedného vývojára.</p></div><span class="status-pill">Prvá vzorka · {n} aplikácie</span></section>
-<section class="summary-grid" aria-label="Hlavné štatistiky">{cards}</section>
-<p class="context-note"><span class="info-dot">i</span> Veľkosť trhu je údaj Shopify. Cenové modely, hodnotenia a tímy opisujú iba našu vzorku. {link(s['market']['source_url'], 'Zdroj celkového počtu')}</p>
-<div class="two-columns"><section class="panel categories"><div class="section-header"><div><span class="eyebrow">MAPA TRHU</span><h2>Aplikácie podľa kategórie</h2></div><span class="badge neutral">{len(s['categories'])} hlavných kategórií</span></div><div class="table-scroll"><table><thead><tr><th>Kategória</th><th>Celý trh</th><th>Naša vzorka</th><th class="numeric">Platený plán*</th></tr></thead><tbody>{category_rows}</tbody></table></div><p class="panel-note">* Vo vzorke. Jedna aplikácia môže patriť do viacerých kategórií. Nezistený počet nie je nula.</p></section>
-<section class="panel"><div class="section-header"><div><span class="eyebrow">MONETIZÁCIA</span><h2>Cenové modely</h2></div><span class="badge neutral">Vzorka: {n}</span></div><div class="panel-body"><div class="pricing-highlight"><strong>{s['paid_plan_count']}<span> / {n}</span></strong><div><b>Aplikácie s plateným plánom</b><small>Údaj o ponuke, nie o platiacich zákazníkoch.</small></div></div>{price_rows}</div></section></div>
-<div class="subheading"><span class="eyebrow">BLIŽŠÍ POHĽAD</span><h2>Čo vieme o analyzovaných aplikáciách</h2></div><section class="summary-grid secondary" aria-label="Štatistiky vzorky">{more_cards}</section>
-<div class="two-columns equal"><section class="panel"><div class="section-header"><div><span class="eyebrow">PRÍJMY</span><h2>Verejne zverejnené údaje</h2></div><span class="badge neutral">{s['revenue_disclosed_apps']} aplikácia s údajmi</span></div><div class="table-scroll"><table><thead><tr><th>Aplikácia / obdobie</th><th>Príjmy</th><th>Zdroj publikovaný</th></tr></thead><tbody>{revenue_rows}</tbody></table></div><p class="panel-note">Tvrdenia autorov bez nezávislého auditu. Historické príjmy nesčítavame do aktuálneho MRR; nejde o zisk.</p></section>
-<section class="panel"><div class="section-header"><div><span class="eyebrow">MOMENTUM</span><h2>Zmena počtu recenzií</h2></div><span class="badge neutral">Vlastné merania</span></div><div class="trends">{delta_cards}</div><p class="panel-note">Čistá zmena na rovnakých aplikáciách s meraním v oboch dňoch. Môže byť záporná. Opakované spracovanie vstupov nevytvára nové meranie.</p></section></div>
-<section id="apps" class="panel"><div class="section-header"><div><span class="eyebrow">PODKLADY PRE ŠTATISTIKY</span><h2>Analyzované aplikácie</h2></div><span class="badge neutral">{n} overené záznamy</span></div><div class="table-scroll"><table class="apps-table"><thead><tr><th>Aplikácia / vývojár</th><th>Cenový model</th><th class="numeric">Od / mesiac</th><th class="numeric">Hodnotenie</th><th class="numeric">Recenzie</th><th>Tím · zdroj tvrdenia</th><th>Overené</th></tr></thead><tbody>{app_rows}</tbody></table></div></section>
-<div class="two-columns equal"><section class="panel"><div class="section-header"><div><span class="eyebrow">DÔKAZY POUŽÍVANIA</span><h2>Rozdelenie podľa recenzií</h2></div><span class="badge neutral">Vzorka: {n}</span></div><div class="panel-body">{histogram}</div></section>
-<section class="panel next-panel"><div class="section-header"><div><span class="eyebrow">ĎALŠÍ KROK</span><h2>Od štatistík k príležitostiam</h2></div></div><div class="panel-body"><p>Najprv porovnáme úzke kategórie a doplníme aplikácie s preukázaným dopytom. Potom pridáme rast, sťažnosti obchodníkov a náročnosť vlastného MVP.</p><div class="criteria"><span>Preukázaný dopyt</span><span>Jednoduchý vývoj</span><span>Cloudflare</span><span>Automatické testy</span></div><small>Poradie príležitostí pribudne po získaní dostatočných podkladov.</small></div></section></div>
-<details id="sources" class="panel sources"><summary>Zdroje, metodika a pokrytie dát <span>Rozbaliť podrobnosti</span></summary><div class="panel-body"><p>Výpočet k dátumu: <b>{esc(s['as_of'])}</b>. Údaje o aplikáciách: <b>{esc(s['oldest_app_observation'] or 'nezistené')} – {esc(s['newest_app_observation'] or 'nezistené')}</b>. Počet odlišných snímok vstupov: <b>{s['snapshot_count']}</b>.</p><ul>{source_items}</ul><p>Medián cien zahŕňa iba známe kladné mesačné vstupné ceny v USD. Ročné, jednorazové a variabilné ceny neprepočítavame. Medián hodnotení nie je vážený počtom recenzií. Nové aplikácie sú aplikácie uvedené v posledných 30 alebo 90 kalendárnych dňoch vrátane dátumu výpočtu.</p><p>Počet vývojárov používame podľa URL vydavateľa; nepredstavuje počet jednotlivých programátorov. Podiel recenzií top 3 aplikácií v kategórii je dostupný v JSON/CSV a opisuje len vzorku, nie trhový podiel.</p><p>Zdroje kategorizácie:</p><ul>{category_sources}</ul><p>Vstupy boli overené pri prieskume alebo importované. Automatizovaný zber zo Shopify nie je aktívny; {link('https://www.shopify.com/legal/terms', 'podmienky prístupu, bod 1.9')}.</p><p><a href="data/stats.json" download>Stiahnuť štatistiky JSON ↓</a> · <a href="data/categories.csv" download>Stiahnuť kategórie CSV ↓</a></p></div></details>
-</main><footer><span>Shopify Opportunity Scanner · Nezávislý výskumný projekt</span><span>Verejné zdroje · Doložené údaje · Transparentné odhady</span></footer></body></html>'''
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Shopify Opportunity Scanner: market overview, pricing models and verified app data.">
+<title>Shopify Opportunity Scanner · Market overview</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body><header class="topbar"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">S</span><span>SHOPIFY<span class="brand-accent">SCANNER</span></span></a><nav aria-label="Navigation"><a class="active" href="#market">Market overview</a><a href="#apps">Apps</a><a href="#sources">Sources</a></nav><span class="scan-status"><i aria-hidden="true"></i>Market data: {esc(s['market']['observed_at'])}</span></header>
+<main><section id="market" class="intro"><div><span class="eyebrow">SHOPIFY OPPORTUNITY SCANNER</span><h1>Market overview</h1><p>From ecosystem insights to opportunities for a solo developer.</p></div><span class="status-pill">Initial sample · {n} apps</span></section>
+<section class="summary-grid" aria-label="Key statistics">{cards}</section>
+<p class="context-note"><span class="info-dot">i</span> Market size is reported by Shopify. Pricing, ratings and teams describe our sample only. {link(s['market']['source_url'], 'Market size source')}</p>
+<div class="two-columns"><section class="panel categories"><div class="section-header"><div><span class="eyebrow">MARKET MAP</span><h2>Apps by category</h2></div><span class="badge neutral">{len(s['categories'])} main categories</span></div><div class="table-scroll"><table><thead><tr><th>Category</th><th>Entire market</th><th>Our sample</th><th class="numeric">Paid plan*</th></tr></thead><tbody>{category_rows}</tbody></table></div><p class="panel-note">* Within the sample. An app may belong to multiple categories. An unknown count is not zero.</p></section>
+<section class="panel"><div class="section-header"><div><span class="eyebrow">MONETIZATION</span><h2>Pricing models</h2></div><span class="badge neutral">Sample: {n}</span></div><div class="panel-body"><div class="pricing-highlight"><strong>{s['paid_plan_count']}<span> / {n}</span></strong><div><b>Apps with a paid plan</b><small>Plan availability, not evidence of paying customers.</small></div></div>{price_rows}</div></section></div>
+<div class="subheading"><span class="eyebrow">A CLOSER LOOK</span><h2>What we know about the sampled apps</h2></div><section class="summary-grid secondary" aria-label="Sample statistics">{more_cards}</section>
+<div class="two-columns equal"><section class="panel"><div class="section-header"><div><span class="eyebrow">REVENUE</span><h2>Public revenue disclosures</h2></div><span class="badge neutral">Apps with disclosures: {s['revenue_disclosed_apps']}</span></div><div class="table-scroll"><table><thead><tr><th>App / period</th><th>Revenue</th><th>Source published</th></tr></thead><tbody>{revenue_rows}</tbody></table></div><p class="panel-note">Developer statements without independent auditing. Historical revenue is not added to current MRR and does not represent profit.</p></section>
+<section class="panel"><div class="section-header"><div><span class="eyebrow">MOMENTUM</span><h2>Review count change</h2></div><span class="badge neutral">Our observations</span></div><div class="trends">{delta_cards}</div><p class="panel-note">Net change for the same apps observed on both dates. It can be negative. Reprocessing inputs does not create a new observation.</p></section></div>
+<section id="apps" class="panel"><div class="section-header"><div><span class="eyebrow">STATISTICS INPUTS</span><h2>Analyzed apps</h2></div><span class="badge neutral">{n} verified records</span></div><div class="table-scroll"><table class="apps-table"><thead><tr><th>App / developer</th><th>Pricing model</th><th class="numeric">From / month</th><th class="numeric">Rating</th><th class="numeric">Reviews</th><th>Team · statement source</th><th>Verified</th></tr></thead><tbody>{app_rows}</tbody></table></div></section>
+<div class="two-columns equal"><section class="panel"><div class="section-header"><div><span class="eyebrow">USAGE SIGNALS</span><h2>Distribution by review count</h2></div><span class="badge neutral">Sample: {n}</span></div><div class="panel-body">{histogram}</div></section>
+<section class="panel next-panel"><div class="section-header"><div><span class="eyebrow">NEXT STEP</span><h2>From statistics to opportunities</h2></div></div><div class="panel-body"><p>First, compare focused categories and add apps with demonstrated demand. Then assess growth, merchant complaints and the complexity of an independent MVP.</p><div class="criteria"><span>Proven demand</span><span>Simple implementation</span><span>Cloudflare</span><span>Automated tests</span></div><small>Opportunity rankings will follow once enough evidence is available.</small></div></section></div>
+<details id="sources" class="panel sources"><summary>Sources, methodology and data coverage <span>Show details</span></summary><div class="panel-body"><p>Calculated as of: <b>{esc(s['as_of'])}</b>. App observations: <b>{esc(s['oldest_app_observation'] or 'unknown')} – {esc(s['newest_app_observation'] or 'unknown')}</b>. Distinct input snapshots: <b>{s['snapshot_count']}</b>.</p><ul>{source_items}</ul><p>The price median includes only known positive monthly entry prices in USD. Annual, one-time and usage-based prices are not converted. The rating median is not weighted by review count. New apps launched within the last 30 or 90 calendar days, including the calculation date.</p><p>Developers are counted by publisher URL, not by individual programmers. The top three apps' share of category reviews is available in JSON/CSV and describes the sample, not market share.</p><p>Category sources:</p><ul>{category_sources}</ul><p>Inputs were verified during research or imported. Automated Shopify data collection is not active; {link('https://www.shopify.com/legal/terms', 'access terms, section 1.9')}.</p><p><a href="data/stats.json" download>Download statistics JSON ↓</a> · <a href="data/categories.csv" download>Download categories CSV ↓</a></p></div></details>
+</main><footer><span>Shopify Opportunity Scanner · Independent research project</span><span>Public sources · Sourced data · Transparent estimates</span></footer></body></html>'''
 
 
 def write_text(path, content):
@@ -354,15 +355,15 @@ def build(root, as_of):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=ROOT, help="Koreň projektu (predvolene umiestnenie skriptu).")
-    parser.add_argument("--as-of", type=date.fromisoformat, default=date.today(), help="Dátum výpočtu YYYY-MM-DD.")
+    parser.add_argument("--root", type=Path, default=ROOT, help="Project root (defaults to the script directory).")
+    parser.add_argument("--as-of", type=date.fromisoformat, default=date.today(), help="Calculation date in YYYY-MM-DD format.")
     args = parser.parse_args()
     try:
         stats = build(args.root.resolve(), args.as_of)
     except (ValueError, KeyError, TypeError, AttributeError, OSError) as exc:
-        print(f"Chyba vstupov alebo výstupu: {exc}", file=sys.stderr)
+        print(f"Input or output error: {exc}", file=sys.stderr)
         return 1
-    print(f"Hotovo: {stats['sample_size']} aplikácie, {len(stats['categories'])} kategórií. HTML: {args.root / 'HTML/index.html'}")
+    print(f"Done: {stats['sample_size']} apps, {len(stats['categories'])} categories. HTML: {args.root / 'HTML/index.html'}")
     return 0
 
 

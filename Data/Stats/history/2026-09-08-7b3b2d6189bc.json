@@ -5,7 +5,7 @@
     "value": 16000,
     "relation": "greater_than",
     "source_url": "https://apps.shopify.com/",
-    "note": "Shopify uvádza viac než 16 000 aplikácií. Publikovaná hranica, nie presný súpis aktívnych aplikácií.",
+    "note": "Shopify reports more than 16,000 apps. This is a published lower bound, not an exact inventory of active apps.",
     "observed_at": "2026-09-08",
     "earning_apps": null,
     "total_mrr_usd": null
@@ -34,8 +34,8 @@
     "1–9": 0,
     "10–99": 1,
     "100–999": 1,
-    "1 000+": 0,
-    "Nezistené": 0
+    "1,000+": 0,
+    "Unknown": 0
   },
   "new_30d": 0,
   "new_90d": 0,
@@ -50,11 +50,11 @@
       "kind": "cumulative_revenue",
       "amount": 735.66,
       "currency": "USD",
-      "period_label": "Prvý rok podľa autora",
+      "period_label": "First year, according to the developer",
       "published_at": "2025-07-20",
       "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
       "evidence_type": "developer_statement",
-      "note": "Celkové historické príjmy; nejde o MRR ani zisk. Tvrdenie autora, bez nezávislého auditu.",
+      "note": "Historical total revenue, not MRR or profit. Developer statement without independent auditing.",
       "app_name": "ezInvoices | One-Click Invoice",
       "app_url": "https://apps.shopify.com/ezinvoices"
     }
@@ -62,7 +62,7 @@
   "categories": [
     {
       "id": "sales-channels",
-      "name": "Predajné kanály",
+      "name": "Sales channels",
       "name_en": "Sales channels",
       "market_count": null,
       "sample_count": 0,
@@ -72,7 +72,7 @@
     },
     {
       "id": "finding-products",
-      "name": "Hľadanie produktov",
+      "name": "Finding products",
       "name_en": "Finding products",
       "market_count": null,
       "sample_count": 0,
@@ -82,7 +82,7 @@
     },
     {
       "id": "selling-products",
-      "name": "Predaj produktov",
+      "name": "Selling products",
       "name_en": "Selling products",
       "market_count": null,
       "sample_count": 1,
@@ -92,7 +92,7 @@
     },
     {
       "id": "orders-and-shipping",
-      "name": "Objednávky a doprava",
+      "name": "Orders and shipping",
       "name_en": "Orders and shipping",
       "market_count": null,
       "sample_count": 1,
@@ -102,7 +102,7 @@
     },
     {
       "id": "store-design",
-      "name": "Dizajn obchodu",
+      "name": "Store design",
       "name_en": "Store design",
       "market_count": null,
       "sample_count": 1,
@@ -112,7 +112,7 @@
     },
     {
       "id": "marketing-and-conversion",
-      "name": "Marketing a konverzia",
+      "name": "Marketing and conversion",
       "name_en": "Marketing and conversion",
       "market_count": null,
       "sample_count": 0,
@@ -122,7 +122,7 @@
     },
     {
       "id": "store-management",
-      "name": "Správa obchodu",
+      "name": "Store management",
       "name_en": "Store management",
       "market_count": null,
       "sample_count": 0,
@@ -157,7 +157,7 @@
         "evidence_type": "developer_statement",
         "statement_date": null,
         "source_url": "https://apps.shopify.com/reviews/1579229?locale=fi",
-        "note": "Vývojár v odpovedi uvádza dvojčlenný tím. Dátum poslednej úpravy tvrdenia nepoznáme."
+        "note": "The developer describes a two-person team in a reply. The last revision date of the statement is unknown."
       },
       "revenue_disclosures": []
     },
@@ -184,30 +184,30 @@
         "evidence_type": "developer_statement",
         "statement_date": "2025-07-20",
         "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
-        "note": "Historické vyjadrenie autora o sólo vývoji; dnešná veľkosť tímu nie je nezávisle potvrdená."
+        "note": "Historical developer statement about solo development; the current team size is not independently confirmed."
       },
       "revenue_disclosures": [
         {
           "kind": "cumulative_revenue",
           "amount": 735.66,
           "currency": "USD",
-          "period_label": "Prvý rok podľa autora",
+          "period_label": "First year, according to the developer",
           "published_at": "2025-07-20",
           "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
           "evidence_type": "developer_statement",
-          "note": "Celkové historické príjmy; nejde o MRR ani zisk. Tvrdenie autora, bez nezávislého auditu."
+          "note": "Historical total revenue, not MRR or profit. Developer statement without independent auditing."
         }
       ]
     }
   ],
   "limitations": [
-    "Vzorka nie je reprezentatívna pre celý trh.",
-    "Aplikácie môžu patriť do viacerých kategórií; počty sa nesčítavajú.",
-    "Platený plán nepreukazuje príjmy ani zisk.",
-    "Historické vyjadrenia o tíme nemusia opisovať dnešný stav.",
-    "Opakované spracovanie rovnakých vstupov nie je nové meranie trhu."
+    "The sample is not representative of the entire market.",
+    "Apps can belong to multiple categories; category counts are not additive.",
+    "A paid plan does not establish revenue or profit.",
+    "Historical team statements may not reflect the current team.",
+    "Processing the same inputs again is not a new market observation."
   ],
-  "source_fingerprint": "816c56a009c9d201ddcf6bfa74129e15d47f1a3d16e37e6f6dae812991c877fc",
+  "source_fingerprint": "7b3b2d6189bcf18d82c389c66088920b26204ebec168ee246587d7fe0bec2ec1",
   "review_deltas": {
     "1": {
       "net_change": null,

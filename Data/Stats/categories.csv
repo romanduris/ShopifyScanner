@@ -1,8 +1,8 @@
 id,name,market_count,sample_count,paid_plan_count,reviews_known_count,top3_review_share
-sales-channels,Predajné kanály,,0,0,0,
-finding-products,Hľadanie produktov,,0,0,0,
-selling-products,Predaj produktov,,1,1,1,1.0
-orders-and-shipping,Objednávky a doprava,,1,1,1,1.0
-store-design,Dizajn obchodu,,1,1,1,1.0
-marketing-and-conversion,Marketing a konverzia,,0,0,0,
-store-management,Správa obchodu,,0,0,0,
+sales-channels,Sales channels,,0,0,0,
+finding-products,Finding products,,0,0,0,
+selling-products,Selling products,,1,1,1,1.0
+orders-and-shipping,Orders and shipping,,1,1,1,1.0
+store-design,Store design,,1,1,1,1.0
+marketing-and-conversion,Marketing and conversion,,0,0,0,
+store-management,Store management,,0,0,0,

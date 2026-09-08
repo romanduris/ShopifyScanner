@@ -53,7 +53,7 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
               output.write(f"enabled={str(enabled).lower()}\n")
           if not enabled:
-              message = "Pages nie je nastavený na GitHub Actions. V Settings > Pages vyber GitHub Actions a spusti tento workflow znova. HTML je v repozitári aj v artefakte github-pages."
+              message = "Pages is not configured for GitHub Actions. Select GitHub Actions in Settings > Pages, then rerun this workflow. HTML is available in the repository and in the github-pages artifact."
               print(message)
               with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
                   summary.write(message + '\n')

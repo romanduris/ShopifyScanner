@@ -68,7 +68,7 @@ class StatsTests(unittest.TestCase):
         self.assertEqual(result["zero_reviews_count"], 0)
         self.assertEqual(result["reviews_known_count"], 0)
         self.assertEqual(result["paid_plan_count"], 0)
-        self.assertEqual(result["review_bands"]["Nezistené"], 1)
+        self.assertEqual(result["review_bands"]["Unknown"], 1)
 
     def test_historical_revenue_is_not_converted_to_mrr(self):
         result = stats.summarize(self.facts, self.apps(), AS_OF)
@@ -161,7 +161,7 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(first, second)
             self.assertEqual(len(list((root / "Data/Stats/history").glob("*.json"))), 1)
             page = (root / "HTML/index.html").read_text()
-            self.assertIn("Prehľad trhu", page)
+            self.assertIn("Market overview", page)
             self.assertEqual((root / "HTML/data/stats.json").read_bytes(), (root / "Data/Stats/latest.json").read_bytes())
             # Advancing the calculation date without new sources is not a new observation.
             stats.build(root, date(2026, 9, 9))
