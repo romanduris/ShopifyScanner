@@ -2,6 +2,7 @@
 """Build market statistics from sourced JSON imports; no network access required."""
 
 import app_analysis
+import opportunity
 import argparse
 import csv
 import hashlib
@@ -286,19 +287,19 @@ def render_dashboard(stats, catalog=None):
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Shopify Opportunity Scanner: market overview, pricing models and verified app data.">
-<title>Shopify Opportunity Scanner · Market overview</title><link rel="stylesheet" href="assets/styles.css"><script src="assets/app.js" defer></script></head>
-<body><header class="topbar"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">S</span><span>SHOPIFY<span class="brand-accent">SCANNER</span></span></a><nav aria-label="Navigation"><a class="active" href="#market">Market overview</a><a href="#apps">Apps</a><a href="#sources">Sources</a></nav><span class="scan-status"><i aria-hidden="true"></i>Market data: {esc(s['market']['observed_at'])}</span></header>
-<main><section id="market" class="intro"><div><span class="eyebrow">SHOPIFY OPPORTUNITY SCANNER</span><h1>Market overview</h1><p>From ecosystem insights to opportunities for a solo developer.</p></div><span class="status-pill">Initial sample · {n} apps</span></section>
-<section class="summary-grid" aria-label="Key statistics">{cards}</section>
+<title>Shopify Opportunity Scanner · Young entrants</title><link rel="stylesheet" href="assets/styles.css"><script src="assets/app.js" defer></script></head>
+<body><header class="topbar"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">S</span><span>SHOPIFY<span class="brand-accent">SCANNER</span></span></a><nav aria-label="Navigation"><a class="active" href="#apps">Opportunities</a><a href="#market">Market overview</a><a href="#sources">Sources</a></nav><span class="scan-status"><i aria-hidden="true"></i>Market data: {esc(s['market']['observed_at'])}</span></header>
+<main><section class="intro"><div><span class="eyebrow">SHOPIFY OPPORTUNITY SCANNER</span><h1>Find the next viable entrant</h1><p>Proven demand → Proven entry → Easy build. A specific advantage completes the opportunity.</p></div><span class="status-pill">Initial sample · {n} apps</span></section>
+{catalog_html}
+<div id="market" class="subheading"><span class="eyebrow">MARKET CONTEXT</span><h2>Market overview</h2></div><section class="summary-grid" aria-label="Key statistics">{cards}</section>
 <p class="context-note"><span class="info-dot">i</span> Market size is reported by Shopify. Pricing, ratings and teams describe our sample only. {link(s['market']['source_url'], 'Market size source')}</p>
 <div class="two-columns"><section class="panel categories"><div class="section-header"><div><span class="eyebrow">MARKET MAP</span><h2>Apps by category</h2></div><span class="badge neutral">{len(s['categories'])} main categories</span></div><div class="table-scroll"><table><thead><tr><th>Category</th><th>Entire market</th><th>Our sample</th><th class="numeric">Paid plan*</th></tr></thead><tbody>{category_rows}</tbody></table></div><p class="panel-note">* Within the sample. An app may belong to multiple categories. An unknown count is not zero.</p></section>
 <section class="panel"><div class="section-header"><div><span class="eyebrow">MONETIZATION</span><h2>Pricing models</h2></div><span class="badge neutral">Sample: {n}</span></div><div class="panel-body"><div class="pricing-highlight"><strong>{s['paid_plan_count']}<span> / {n}</span></strong><div><b>Apps with a paid plan</b><small>Plan availability, not evidence of paying customers.</small></div></div>{price_rows}</div></section></div>
 <div class="subheading"><span class="eyebrow">A CLOSER LOOK</span><h2>What we know about the sampled apps</h2></div><section class="summary-grid secondary" aria-label="Sample statistics">{more_cards}</section>
 <div class="two-columns equal"><section class="panel"><div class="section-header"><div><span class="eyebrow">REVENUE</span><h2>Public revenue disclosures</h2></div><span class="badge neutral">Apps with disclosures: {s['revenue_disclosed_apps']}</span></div><div class="table-scroll"><table><thead><tr><th>App / period</th><th>Revenue</th><th>Source published</th></tr></thead><tbody>{revenue_rows}</tbody></table></div><p class="panel-note">Developer statements without independent auditing. Historical revenue is not added to current MRR and does not represent profit.</p></section>
 <section class="panel"><div class="section-header"><div><span class="eyebrow">MOMENTUM</span><h2>Review count change</h2></div><span class="badge neutral">Our observations</span></div><div class="trends">{delta_cards}</div><p class="panel-note">Net change for the same apps observed on both dates. It can be negative. Reprocessing inputs does not create a new observation.</p></section></div>
-{catalog_html}
 <div class="two-columns equal"><section class="panel"><div class="section-header"><div><span class="eyebrow">USAGE SIGNALS</span><h2>Distribution by review count</h2></div><span class="badge neutral">Sample: {n}</span></div><div class="panel-body">{histogram}</div></section>
-<section class="panel next-panel"><div class="section-header"><div><span class="eyebrow">NEXT STEP</span><h2>From statistics to opportunities</h2></div></div><div class="panel-body"><p>First, compare focused categories and add apps with demonstrated demand. Then assess growth, merchant complaints and the complexity of an independent MVP.</p><div class="criteria"><span>Proven demand</span><span>Simple implementation</span><span>Cloudflare</span><span>Automated tests</span></div><small>Use the app filters to shortlist a paid workflow, inspect review evidence, and validate its smallest useful MVP in a development store.</small></div></section></div>
+<section class="panel next-panel"><div class="section-header"><div><span class="eyebrow">NEXT STEP</span><h2>From statistics to opportunities</h2></div></div><div class="panel-body"><p>Research apps launched in the last 24 months. Verify actual payments, current customer acquisition against established alternatives, and a quality solo build within 1–2 weeks.</p><div class="criteria"><span>Proven demand</span><span>Proven entry</span><span>Easy build</span><span>Specific advantage</span></div><small>Open Needs research for missing evidence. A full shortlist can remain empty until the gates and a feasible differentiator are documented.</small></div></section></div>
 <details id="sources" class="panel sources"><summary>Sources, methodology and data coverage <span>Show details</span></summary><div class="panel-body"><p>Calculated as of: <b>{esc(s['as_of'])}</b>. App observations: <b>{esc(s['oldest_app_observation'] or 'unknown')} – {esc(s['newest_app_observation'] or 'unknown')}</b>. Distinct input snapshots: <b>{s['snapshot_count']}</b>.</p><ul>{source_items}</ul><p>The price median includes only known positive monthly entry prices in USD. Annual, one-time and usage-based prices are not converted. The rating median is not weighted by review count. New apps launched within the last 30 or 90 calendar days, including the calculation date.</p><p>Developers are counted by normalized publisher name, not by individual programmers. Names can collide or change; team size requires separate evidence. The top three apps' share of category reviews is available in JSON/CSV and describes the sample, not market share.</p><p>Category sources:</p><ul>{category_sources}</ul><p>Inputs were verified during research or imported. Automated Shopify data collection is not active; {link('https://www.shopify.com/legal/terms', 'access terms, section 1.9')}.</p><p><a href="data/stats.json" download>Download statistics JSON ↓</a> · <a href="data/categories.csv" download>Download categories CSV ↓</a></p></div></details>
 </main><footer><span>Shopify Opportunity Scanner · Independent research project</span><span>Public sources · Sourced data · Transparent estimates</span></footer></body></html>'''
 
@@ -339,7 +340,8 @@ def build(root, as_of):
     new_snapshot = not any(h.get("source_fingerprint") == digest for h in history)
     stats["snapshot_count"] = len(history) + int(new_snapshot)
     assessments, competition = app_analysis.load_research(root, as_of)
-    catalog = app_analysis.analyze(apps, as_of, history, assessments, competition)
+    opportunities = opportunity.load(root, as_of, {a["url"] for a in apps})
+    catalog = app_analysis.analyze(apps, as_of, history, assessments, competition, opportunities)
     page = render_dashboard(stats, catalog)
     analysis_output = encode_json(catalog)
     json_output = encode_json(stats)
@@ -349,6 +351,9 @@ def build(root, as_of):
         write_text(history_dir / f"{as_of.isoformat()}-{digest[:12]}.json", json_output)
     write_text(root / "Data/Analysis/latest.json", analysis_output)
     write_text(root / "HTML/data/analysis.json", analysis_output)
+    queue_output = encode_json(catalog["research_queue"])
+    write_text(root / "Data/Analysis/research_queue.json", queue_output)
+    write_text(root / "HTML/data/research_queue.json", queue_output)
     write_text(root / "Data/Stats/latest.json", json_output)
     write_text(root / "Data/Stats/categories.csv", category_csv)
     write_text(root / "HTML/index.html", page)

@@ -195,3 +195,38 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 }
 
 .two-columns, .two-columns.equal { align-items: start; }
+
+.screening-summary { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.screening-status, .gate-state { display: inline-block; padding: 4px 7px; border-radius: 5px; font-size: 10px; background: #e9edf3; color: #344760; }
+.screening-status.qualified, .gate-state.pass { background: #e2f3e9; color: #175c3c; }
+.screening-status.needs_research, .gate-state.unknown { background: #fff2d5; color: #715010; }
+.screening-status.rejected, .gate-state.fail { background: #fbe6e5; color: #8c2522; }
+.screening-status.established { background: #e9edf3; color: #53627a; }
+.gate-text.pass { color: #175c3c; }
+.gate-text.unknown { color: #715010; }
+.gate-text.fail { color: #8c2522; }
+.screening-objective { max-width: 950px; font-size: 12px; line-height: 1.7; margin: 0 0 16px; }
+.analysis-table { min-width: 1320px; }
+.analysis-table th:nth-child(2) { width: 22%; }
+.analysis-table th:nth-child(3) { width: 9%; }
+.analysis-table th:nth-child(4) { width: 17%; }
+.analysis-table .screening-status { margin-top: 6px; }
+.analysis-table .gate-summary small { display: block; line-height: 1.8; }
+.score-pill:not(.qualified) { color: #53627a; background: #e9edf3; }
+.screening-detail { padding: 10px; font-size: 12px; line-height: 1.6; }
+.screening-detail h4 { margin: 14px 0 6px; }
+.screening-detail > p, .screening-detail > section { margin: 10px 0; }
+.gate-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.gate-grid > section { background: white; border: 1px solid #dce4ee; border-radius: 7px; padding: 12px; overflow-wrap: anywhere; }
+.gate-grid h3 { font-size: 12px; margin: 0 0 8px; }
+.gate-grid p { margin: 8px 0; }
+.legacy-evidence { padding: 10px; }
+.legacy-evidence > summary { cursor: pointer; font-weight: 700; }
+.discovery-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px 25px; padding-left: 18px; }
+.discovery-list small { display: block; color: var(--muted); margin-top: 3px; }
+@media (max-width: 800px) {
+  .gate-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .filter-toolbar .search-filter { width: 100%; }
+}

@@ -29,7 +29,7 @@ jobs:
           python-version: '3.12'
       - name: Check syntax and test statistics
         run: |
-          python -m py_compile 1.Stats.py app_analysis.py
+          python -m py_compile 1.Stats.py app_analysis.py opportunity.py
           python -m unittest discover -s tests -v
       - name: Generate static dashboard
         run: python 1.Stats.py

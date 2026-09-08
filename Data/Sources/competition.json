@@ -1,6 +1,13 @@
 {
   "schema_version": 1,
   "groups": {
+    "surveys": {
+      "app_count": 156,
+      "category_name": "Surveys",
+      "source_url": "https://apps.shopify.com/categories/store-management-support-surveys/all",
+      "observed_at": "2026-09-08",
+      "scope": "Category population including general form builders; not a count of direct competitors."
+    },
     "badges": {
       "app_count": 380,
       "category_name": "Badges and icons",

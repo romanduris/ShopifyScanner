@@ -5,9 +5,10 @@ const records = Array.from(document.querySelectorAll(".app-record"));
 const table = document.querySelector("#analysis-table");
 const search = document.querySelector("#app-search");
 const sort = document.querySelector("#app-sort");
-const complexity = document.querySelector("#complexity-filter");
+const buildDays = document.querySelector("#build-days-filter");
 const minimum = document.querySelector("#min-reviews");
 const paid = document.querySelector("#paid-only");
+const statusFilter = document.querySelector("#status-filter");
 const categoryButtons = Array.from(document.querySelectorAll(".category-filter"));
 let category = "all";
 let peerGroup = null;
@@ -17,17 +18,25 @@ function applyFilters() {
   const threshold = Math.max(0, Number(minimum.value) || 0);
   const order = sort.value;
   records.sort((a, b) => {
+    if (order === "priority") {
+      const statusOrder = {qualified: 0, needs_research: 1, rejected: 2, established: 3};
+      const groupDifference = statusOrder[a.dataset.status] - statusOrder[b.dataset.status];
+      if (groupDifference) return groupDifference;
+    }
     const difference = Number(a.dataset[order]) - Number(b.dataset[order]);
-    return (order === "complexity" || order === "peers" ? difference : -difference)
+    return (order === "builddays" || order === "peers" ? difference : -difference)
       || a.dataset.search.localeCompare(b.dataset.search);
   });
   let count = 0;
   for (const row of records) {
     const data = row.dataset;
-    const effort = Number(data.complexity);
-    const effortMatches = complexity.value === "all"
-      || (complexity.value === "unknown" ? effort === 99 : effort <= Number(complexity.value));
+    const effort = Number(data.builddays);
+    const effortMatches = buildDays.value === "all"
+      || (buildDays.value === "unknown" ? data.buildknown === "false"
+        : data.buildknown === "true" && effort <= Number(buildDays.value));
     const visible = (category === "all" || data.categories.split(" ").includes(category))
+      && (statusFilter.value === "all" || (statusFilter.value === "candidates"
+        ? data.candidate === "true" : data.status === statusFilter.value))
       && (!peerGroup || data.group === peerGroup)
       && data.search.includes(query) && effortMatches
       && (threshold === 0 || Number(data.reviews) >= threshold) && (!paid.checked || data.paid === "true");
@@ -57,7 +66,7 @@ function applyFilters() {
 
 if (table) {
   for (const input of [search, minimum]) input.addEventListener("input", applyFilters);
-  for (const input of [sort, complexity, paid]) input.addEventListener("change", applyFilters);
+  for (const input of [sort, buildDays, paid, statusFilter]) input.addEventListener("change", applyFilters);
   for (const button of categoryButtons) button.addEventListener("click", () => {
     category = button.dataset.category;
     peerGroup = null;
@@ -65,7 +74,8 @@ if (table) {
   });
   document.querySelector("#reset-app-filters").addEventListener("click", () => {
     category = "all"; peerGroup = null; search.value = ""; minimum.value = "0";
-    sort.value = "priority"; complexity.value = "all"; paid.checked = false;
+    sort.value = "priority"; buildDays.value = "all"; paid.checked = false;
+    statusFilter.value = "candidates";
     applyFilters();
   });
   for (const button of document.querySelectorAll(".group-filter")) {
@@ -73,7 +83,8 @@ if (table) {
     button.addEventListener("click", () => {
       peerGroup = button.dataset.group;
       category = "all"; search.value = ""; minimum.value = "0";
-      complexity.value = "all"; paid.checked = false;
+      buildDays.value = "all"; paid.checked = false;
+      statusFilter.value = "all";
       applyFilters();
       document.querySelector("#app-result-count").scrollIntoView({block: "center"});
     });

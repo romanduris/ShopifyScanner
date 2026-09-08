@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "apps": {
+    "https://apps.shopify.com/example-young-entrant": {
+      "incumbents": [
+        {
+          "observed_at": "2026-09-08",
+          "summary": "Synthetic evidence for automated tests only.",
+          "sources": [
+            "https://example.org/evidence"
+          ],
+          "url": "https://apps.shopify.com/example-incumbent",
+          "name": "Example Incumbent",
+          "launched_at": "2020-01-01"
+        }
+      ],
+      "payments": [
+        {
+          "observed_at": "2026-09-08",
+          "summary": "Synthetic evidence for automated tests only.",
+          "sources": [
+            "https://example.org/evidence"
+          ],
+          "subject_app_url": "https://apps.shopify.com/example-incumbent",
+          "kind": "paying_customers",
+          "value": 50,
+          "period_end": "2026-08-31",
+          "evidence_type": "developer_statement"
+        }
+      ],
+      "traction": {
+        "observed_at": "2026-09-08",
+        "summary": "Synthetic evidence for automated tests only.",
+        "sources": [
+          "https://example.org/evidence"
+        ],
+        "metric": "paying_customers",
+        "start_at": "2026-08-09",
+        "end_at": "2026-09-08",
+        "start_value": 20,
+        "end_value": 40,
+        "comparable": true
+      },
+      "build": {
+        "observed_at": "2026-09-08",
+        "summary": "Synthetic evidence for automated tests only.",
+        "sources": [
+          "https://example.org/evidence"
+        ],
+        "work_days": 7,
+        "monthly_cost_usd": 20,
+        "support_hours_monthly": 1,
+        "core_workflow_covered": true,
+        "quality_included": true,
+        "platform_access_verified": true,
+        "scope": "One independently built configurable theme widget and its settings.",
+        "exclusions": "No external integrations; app-store review time is outside development effort.",
+        "dependencies": "Theme extension and settings storage; access checked in a development store.",
+        "validation": "Prototype tested on two themes; estimate includes installation, billing, isolation, accessibility and error handling.",
+        "cost_basis": "Estimated at 100 installed stores and 100,000 widget views/month; no paid external API."
+      },
+      "weakness": {
+        "observed_at": "2026-09-08",
+        "summary": "Synthetic evidence for automated tests only.",
+        "sources": [
+          "https://example.org/evidence"
+        ],
+        "unresolved": true,
+        "fits_build_scope": true,
+        "target_segment": "Small merchants who need keyboard-accessible configuration.",
+        "differentiation": "Accessible controls tested with keyboard navigation and a screen reader.",
+        "reports": [
+          {
+            "published_at": "2026-08-20",
+            "merchant_id": "merchant-a",
+            "summary": "Synthetic report A about the same unmet need.",
+            "sources": [
+              "https://example.org/reviews/a"
+            ]
+          },
+          {
+            "published_at": "2026-08-22",
+            "merchant_id": "merchant-b",
+            "summary": "Synthetic report B about the same unmet need.",
+            "sources": [
+              "https://example.org/reviews/b"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

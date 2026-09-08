@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-08",
+  "objective": "Find Shopify apps launched within approximately the last 24 months that are currently demonstrating strong traction, despite competing against established apps, and whose core functionality can be independently rebuilt by a solo developer with Codex in roughly 1–2 weeks.",
+  "launch_cutoff": "2024-09-08",
+  "collection_status": "Local imports only; search links are research starting points, not completed observations.",
+  "discovery_method": "Search focused workflows and direct alternatives; inspect launch dates before shortlisting. Import all verified young entrants without a lifetime-review top-N cap. Record direct competition and comparable recent customer counts. Sample classifications are hypotheses until verified.",
+  "tasks": [
+    {
+      "url": "https://apps.shopify.com/clay-b2b-wholesale-form",
+      "name": "Clay • B2B Wholesale Pricing",
+      "group": "wholesale",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/kaching-subscriptions",
+      "name": "Kaching Subscriptions App",
+      "group": "subscriptions",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/watermelon",
+      "name": "Melon Minimum Order Quantity",
+      "group": "order_limits",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/microsoft-clarity",
+      "name": "Microsoft Clarity: AI Insights",
+      "group": "analytics",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/eu-withdrawal-form",
+      "name": "Revoq ‑ EU Withdrawal Button",
+      "group": "returns",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/collective",
+      "name": "Shopify Collective",
+      "group": "wholesale",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/whatsapp",
+      "name": "WhatsApp",
+      "group": "chat",
+      "actions": [
+        "Document actual payments or paying customers for this problem within the last year; a paid plan is insufficient.",
+        "Import comparable customer-count observations spanning 30–90 days, ending within the last 30 days.",
+        "Assess core scope, tests, platform access, development days, operating costs and support; a complexity label is insufficient.",
+        "Find a current unmet need reported by at least two independent merchants and a specific improvement within our build scope.",
+        "Document at least one active direct competitor launched before this entrant and older than 24 months; include sources and a same-problem assessment."
+      ]
+    }
+  ],
+  "discovery": {
+    "wholesale": {
+      "workflow": "B2B and wholesale",
+      "established_sample_apps": [
+        "https://apps.shopify.com/wholesale-hub",
+        "https://apps.shopify.com/b2b-solution-custom-pricing",
+        "https://apps.shopify.com/faire-buy-wholesale",
+        "https://apps.shopify.com/faire-sell-wholesale",
+        "https://apps.shopify.com/b2b-wholesale-lock-hide-price",
+        "https://apps.shopify.com/wholesale-sami",
+        "https://apps.shopify.com/wholesale-pricing-discount"
+      ],
+      "young_sample_apps": [
+        "https://apps.shopify.com/clay-b2b-wholesale-form",
+        "https://apps.shopify.com/collective"
+      ],
+      "search_url": "https://apps.shopify.com/search?q=B2B%20and%20wholesale"
+    },
+    "subscriptions": {
+      "workflow": "Subscriptions and memberships",
+      "established_sample_apps": [
+        "https://apps.shopify.com/appstle-memberships",
+        "https://apps.shopify.com/subscriptions-by-appstle",
+        "https://apps.shopify.com/loop-subscriptions",
+        "https://apps.shopify.com/subscription-payments",
+        "https://apps.shopify.com/seal-subscriptions",
+        "https://apps.shopify.com/shopify-subscriptions"
+      ],
+      "young_sample_apps": [
+        "https://apps.shopify.com/kaching-subscriptions"
+      ],
+      "search_url": "https://apps.shopify.com/search?q=Subscriptions%20and%20memberships"
+    },
+    "order_limits": {
+      "workflow": "Order quantity rules",
+      "established_sample_apps": [
+        "https://apps.shopify.com/avada-order-limit"
+      ],
+      "young_sample_apps": [
+        "https://apps.shopify.com/watermelon"
+      ],
+      "search_url": "https://apps.shopify.com/search?q=Order%20quantity%20rules"
+    },
+    "analytics": {
+      "workflow": "Session analytics",
+      "established_sample_apps": [
+        "https://apps.shopify.com/mida-session-recording-replay",
+        "https://apps.shopify.com/session-recording-now"
+      ],
+      "young_sample_apps": [
+        "https://apps.shopify.com/microsoft-clarity"
+      ],
+      "search_url": "https://apps.shopify.com/search?q=Session%20analytics"
+    },
+    "returns": {
+      "workflow": "Returns and cancellations",
+      "established_sample_apps": [
+        "https://apps.shopify.com/loop-returns"
+      ],
+      "young_sample_apps": [
+        "https://apps.shopify.com/eu-withdrawal-form"
+      ],
+      "search_url": "https://apps.shopify.com/search?q=Returns%20and%20cancellations"
+    },
+    "chat": {
+      "workflow": "Support and chat",
+      "established_sample_apps": [
+        "https://apps.shopify.com/chatty",
+        "https://apps.shopify.com/helpdesk",
+        "https://apps.shopify.com/live-chat-and-cloud-api",
+        "https://apps.shopify.com/tidio-chat"
+      ],
+      "young_sample_apps": [
+        "https://apps.shopify.com/whatsapp"
+      ],
+      "search_url": "https://apps.shopify.com/search?q=Support%20and%20chat"
+    },
+    "bulk_edit": {
+      "workflow": "Bulk product management",
+      "established_sample_apps": [
+        "https://apps.shopify.com/bulk-product-editor",
+        "https://apps.shopify.com/bulk-product-edit",
+        "https://apps.shopify.com/excel-export-import",
+        "https://apps.shopify.com/stock-sync"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Bulk%20product%20management"
+    },
+    "invoicing": {
+      "workflow": "Invoices and order documents",
+      "established_sample_apps": [
+        "https://apps.shopify.com/avada-pdf-invoice",
+        "https://apps.shopify.com/ezinvoices",
+        "https://apps.shopify.com/order-printer-pro",
+        "https://apps.shopify.com/order-printer-templates",
+        "https://apps.shopify.com/simple-invoice-order-printer",
+        "https://apps.shopify.com/sufio",
+        "https://apps.shopify.com/vify-order-printer"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Invoices%20and%20order%20documents"
+    },
+    "booking": {
+      "workflow": "Appointment booking",
+      "established_sample_apps": [
+        "https://apps.shopify.com/cowlendar",
+        "https://apps.shopify.com/appointment-booking-bookeasy",
+        "https://apps.shopify.com/appointments-and-bookings"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Appointment%20booking"
+    },
+    "seo": {
+      "workflow": "SEO utilities",
+      "established_sample_apps": [
+        "https://apps.shopify.com/avada-seo-suite",
+        "https://apps.shopify.com/booster-apps-seo-optimizer"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=SEO%20utilities"
+    },
+    "currency": {
+      "workflow": "Currency display",
+      "established_sample_apps": [
+        "https://apps.shopify.com/doubly-currency-converter",
+        "https://apps.shopify.com/auto-currency-switcher-1"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Currency%20display"
+    },
+    "size_charts": {
+      "workflow": "Size charts",
+      "established_sample_apps": [
+        "https://apps.shopify.com/best-fit-size-charts-size-guides"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Size%20charts"
+    },
+    "email": {
+      "workflow": "Messaging and marketing automation",
+      "established_sample_apps": [
+        "https://apps.shopify.com/pushowl",
+        "https://apps.shopify.com/ecomsend",
+        "https://apps.shopify.com/dondy-marketing-ai",
+        "https://apps.shopify.com/klaviyo-email-marketing",
+        "https://apps.shopify.com/omnisend",
+        "https://apps.shopify.com/pop-convert",
+        "https://apps.shopify.com/seguno"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Messaging%20and%20marketing%20automation"
+    },
+    "bundles": {
+      "workflow": "Bundles and upsells",
+      "established_sample_apps": [
+        "https://apps.shopify.com/bundler-product-bundles",
+        "https://apps.shopify.com/discounty-bulk-discount-sales",
+        "https://apps.shopify.com/essential-post-purchase-upsell",
+        "https://apps.shopify.com/bundle-deals"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Bundles%20and%20upsells"
+    },
+    "marketplaces": {
+      "workflow": "Marketplace integrations",
+      "established_sample_apps": [
+        "https://apps.shopify.com/amazon-by-cedcommerce",
+        "https://apps.shopify.com/facebook",
+        "https://apps.shopify.com/google",
+        "https://apps.shopify.com/litcommerce",
+        "https://apps.shopify.com/ig-fb-shoppable-comments",
+        "https://apps.shopify.com/pinterest",
+        "https://apps.shopify.com/reputon-amazon-affiliate",
+        "https://apps.shopify.com/tiktok",
+        "https://apps.shopify.com/slashcart-tiktok-shop-sync"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Marketplace%20integrations"
+    },
+    "dropshipping": {
+      "workflow": "Sourcing and dropshipping",
+      "established_sample_apps": [
+        "https://apps.shopify.com/cucheng",
+        "https://apps.shopify.com/aliexpress-dropshipping-master",
+        "https://apps.shopify.com/dsers",
+        "https://apps.shopify.com/eprolo",
+        "https://apps.shopify.com/syncee-1",
+        "https://apps.shopify.com/ali-orders-by-fireapps"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Sourcing%20and%20dropshipping"
+    },
+    "product_options": {
+      "workflow": "Product options and personalization",
+      "established_sample_apps": [
+        "https://apps.shopify.com/variant-swatch-king",
+        "https://apps.shopify.com/easify-product-options",
+        "https://apps.shopify.com/globo-color-swatches",
+        "https://apps.shopify.com/product-options-pro",
+        "https://apps.shopify.com/custom-options",
+        "https://apps.shopify.com/product-options-by-bss",
+        "https://apps.shopify.com/product-personalizer"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Product%20options%20and%20personalization"
+    },
+    "consent": {
+      "workflow": "Privacy and consent",
+      "established_sample_apps": [
+        "https://apps.shopify.com/gdpr-backpack",
+        "https://apps.shopify.com/eu-cookie-bar",
+        "https://apps.shopify.com/gdpr-cookie-consent"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Privacy%20and%20consent"
+    },
+    "digital_downloads": {
+      "workflow": "Digital downloads",
+      "established_sample_apps": [
+        "https://apps.shopify.com/filemonk"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Digital%20downloads"
+    },
+    "shipping": {
+      "workflow": "Shipping operations",
+      "established_sample_apps": [
+        "https://apps.shopify.com/easyship",
+        "https://apps.shopify.com/ez-label",
+        "https://apps.shopify.com/shipstation"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Shipping%20operations"
+    },
+    "page_builder": {
+      "workflow": "Page and theme builders",
+      "established_sample_apps": [
+        "https://apps.shopify.com/gempages",
+        "https://apps.shopify.com/layout-hub",
+        "https://apps.shopify.com/pagefly",
+        "https://apps.shopify.com/section-factory",
+        "https://apps.shopify.com/shogun"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Page%20and%20theme%20builders"
+    },
+    "translation": {
+      "workflow": "Store translation",
+      "established_sample_apps": [
+        "https://apps.shopify.com/translate-my-store",
+        "https://apps.shopify.com/langify",
+        "https://apps.shopify.com/translate-and-adapt",
+        "https://apps.shopify.com/multilingual-shop-by-gtranslate"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Store%20translation"
+    },
+    "social_feed": {
+      "workflow": "Social feed widgets",
+      "established_sample_apps": [
+        "https://apps.shopify.com/instafeed"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Social%20feed%20widgets"
+    },
+    "reviews": {
+      "workflow": "Product review platforms",
+      "established_sample_apps": [
+        "https://apps.shopify.com/judgeme"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Product%20review%20platforms"
+    },
+    "store_locator": {
+      "workflow": "Store locators",
+      "established_sample_apps": [
+        "https://apps.shopify.com/dealer-store-locator"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Store%20locators"
+    },
+    "barcodes": {
+      "workflow": "SKU and barcode tools",
+      "established_sample_apps": [
+        "https://apps.shopify.com/barcode-management",
+        "https://apps.shopify.com/yanet-barcode-labels"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=SKU%20and%20barcode%20tools"
+    },
+    "feeds": {
+      "workflow": "Product feeds",
+      "established_sample_apps": [
+        "https://apps.shopify.com/multiple-google-shopping-feeds",
+        "https://apps.shopify.com/google-shopping-feed"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Product%20feeds"
+    },
+    "stock_alerts": {
+      "workflow": "Preorders and stock alerts",
+      "established_sample_apps": [
+        "https://apps.shopify.com/preorder-back-in-stock",
+        "https://apps.shopify.com/back-in-stock-restock-alerts"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Preorders%20and%20stock%20alerts"
+    },
+    "tracking": {
+      "workflow": "Shipment tracking",
+      "established_sample_apps": [
+        "https://apps.shopify.com/parcelpanel",
+        "https://apps.shopify.com/track123",
+        "https://apps.shopify.com/trackingmore"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Shipment%20tracking"
+    },
+    "print_on_demand": {
+      "workflow": "Print on demand",
+      "established_sample_apps": [
+        "https://apps.shopify.com/printful",
+        "https://apps.shopify.com/printify"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Print%20on%20demand"
+    },
+    "backups": {
+      "workflow": "Store backups",
+      "established_sample_apps": [
+        "https://apps.shopify.com/backup"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Store%20backups"
+    },
+    "badges": {
+      "workflow": "Trust badges",
+      "established_sample_apps": [
+        "https://apps.shopify.com/trust-badge-by-giraffly"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Trust%20badges"
+    },
+    "loyalty": {
+      "workflow": "Loyalty and rewards",
+      "established_sample_apps": [
+        "https://apps.shopify.com/smile-io"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Loyalty%20and%20rewards"
+    },
+    "wishlist": {
+      "workflow": "Wishlists",
+      "established_sample_apps": [
+        "https://apps.shopify.com/swym-relay"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Wishlists"
+    },
+    "terms": {
+      "workflow": "Terms acceptance",
+      "established_sample_apps": [
+        "https://apps.shopify.com/terms-and-conditions-checkbox"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Terms%20acceptance"
+    },
+    "affiliate": {
+      "workflow": "Affiliate marketing",
+      "established_sample_apps": [
+        "https://apps.shopify.com/affliate-by-secomapp"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Affiliate%20marketing"
+    },
+    "surveys": {
+      "workflow": "Customer surveys",
+      "established_sample_apps": [
+        "https://apps.shopify.com/zigpoll"
+      ],
+      "young_sample_apps": [],
+      "search_url": "https://apps.shopify.com/search?q=Customer%20surveys"
+    }
+  }
+}
