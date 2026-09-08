@@ -1,8 +1,8 @@
 id,name,market_count,sample_count,paid_plan_count,reviews_known_count,top3_review_share
-sales-channels,Sales channels,,0,0,0,
-finding-products,Finding products,,0,0,0,
-selling-products,Selling products,,1,1,1,1.0
-orders-and-shipping,Orders and shipping,,1,1,1,1.0
-store-design,Store design,,1,1,1,1.0
-marketing-and-conversion,Marketing and conversion,,0,0,0,
-store-management,Store management,,0,0,0,
+sales-channels,Sales channels,,20,12,20,0.5396
+finding-products,Finding products,,20,16,20,0.53
+selling-products,Selling products,,21,18,21,0.4076
+orders-and-shipping,Orders and shipping,,21,18,21,0.3917
+store-design,Store design,,21,17,21,0.6338
+marketing-and-conversion,Marketing and conversion,,20,18,20,0.3527
+store-management,Store management,,20,17,20,0.3135

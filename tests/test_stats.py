@@ -17,8 +17,8 @@ AS_OF = date(2026, 9, 8)
 
 class StatsTests(unittest.TestCase):
     def setUp(self):
-        self.facts = stats.read_json(ROOT / "Data/Sources/market_facts.json")
-        self.records = stats.read_json(ROOT / "Data/Sources/apps.json")
+        self.facts = stats.read_json(ROOT / "tests/fixtures/market_facts.json")
+        self.records = stats.read_json(ROOT / "tests/fixtures/apps.json")
 
     def apps(self):
         return stats.validate_inputs(self.facts, self.records, AS_OF)

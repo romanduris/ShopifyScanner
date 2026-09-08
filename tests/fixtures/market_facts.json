@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-08",
+  "market_total": {
+    "value": 16000,
+    "relation": "greater_than",
+    "source_url": "https://apps.shopify.com/",
+    "note": "Shopify reports more than 16,000 apps. This is a published lower bound, not an exact inventory of active apps."
+  },
+  "categories": [
+    {"id": "sales-channels", "name": "Sales channels", "name_en": "Sales channels", "market_count": null},
+    {"id": "finding-products", "name": "Finding products", "name_en": "Finding products", "market_count": null},
+    {"id": "selling-products", "name": "Selling products", "name_en": "Selling products", "market_count": null},
+    {"id": "orders-and-shipping", "name": "Orders and shipping", "name_en": "Orders and shipping", "market_count": null},
+    {"id": "store-design", "name": "Store design", "name_en": "Store design", "market_count": null},
+    {"id": "marketing-and-conversion", "name": "Marketing and conversion", "name_en": "Marketing and conversion", "market_count": null},
+    {"id": "store-management", "name": "Store management", "name_en": "Store management", "market_count": null}
+  ],
+  "collection": {
+    "mode": "curated_import",
+    "representative_sample": false,
+    "note": "Manually verified public data and imports. The module makes no network requests. The sample does not represent the entire market.",
+    "automated_access_source": "https://www.shopify.com/legal/terms",
+    "automated_access_section": "1.9",
+    "automated_access_checked_at": "2026-09-08"
+  }
+}

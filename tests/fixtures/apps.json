@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "apps": [
+    {
+      "url": "https://apps.shopify.com/ezinvoices",
+      "name": "ezInvoices | One-Click Invoice",
+      "developer": "ezApps",
+      "developer_url": "https://apps.shopify.com/partners/done-well-marketing",
+      "observed_at": "2026-09-08",
+      "launched_at": "2024-07-22",
+      "category_ids": ["orders-and-shipping"],
+      "category_source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts/all"],
+      "rating": 4.6,
+      "review_count": 13,
+      "pricing_model": "freemium",
+      "entry_monthly_usd": 6.99,
+      "built_for_shopify": true,
+      "team": {
+        "status": "solo",
+        "evidence_type": "developer_statement",
+        "statement_date": "2025-07-20",
+        "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
+        "note": "Historical developer statement about solo development; the current team size is not independently confirmed."
+      },
+      "revenue_disclosures": [
+        {
+          "kind": "cumulative_revenue",
+          "amount": 735.66,
+          "currency": "USD",
+          "period_label": "First year, according to the developer",
+          "published_at": "2025-07-20",
+          "source_url": "https://auth.ezapps.io/blogs/my-shopify-app-after-one-year",
+          "evidence_type": "developer_statement",
+          "note": "Historical total revenue, not MRR or profit. Developer statement without independent auditing."
+        }
+      ]
+    },
+    {
+      "url": "https://apps.shopify.com/best-fit-size-charts-size-guides",
+      "name": "BF Size Chart & Size Guide",
+      "developer": "Relentless Apps",
+      "developer_url": "https://www.relentlessapps.com/",
+      "observed_at": "2026-09-08",
+      "launched_at": "2018-10-01",
+      "category_ids": ["store-design", "selling-products"],
+      "category_source_urls": ["https://apps.shopify.com/categories/store-design-product-display-product-comparison/all", "https://apps.shopify.com/categories/selling-products-custom-products-product-variants/all"],
+      "rating": 4.7,
+      "review_count": 139,
+      "pricing_model": "freemium",
+      "entry_monthly_usd": 5.99,
+      "built_for_shopify": true,
+      "team": {
+        "status": "small_team",
+        "evidence_type": "developer_statement",
+        "statement_date": null,
+        "source_url": "https://apps.shopify.com/reviews/1579229?locale=fi",
+        "note": "The developer describes a two-person team in a reply. The last revision date of the statement is unknown."
+      },
+      "revenue_disclosures": []
+    }
+  ]
+}

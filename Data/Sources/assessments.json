@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "apps": {
+    "https://apps.shopify.com/terms-and-conditions-checkbox": {
+      "group": "terms",
+      "complaint_status": "Three one-star reviews inspected. Recurring pricing-transparency concern; no current defect established.",
+      "complaints": [
+        {
+          "summary": "Two merchants reported difficulty finding a free plan (May 2025 and January 2026). A July 2026 review questioned subscription pricing.",
+          "status": "The developer explained in August 2026 that the free plan is limited to development stores. Pricing expectations, not proof of deceptive billing.",
+          "source_url": "https://apps.shopify.com/terms-and-conditions-checkbox/reviews?ratings%5B%5D=1"
+        }
+      ],
+      "sources": [
+        "https://apps.shopify.com/terms-and-conditions-checkbox/reviews?ratings%5B%5D=1"
+      ]
+    },
+    "https://apps.shopify.com/barcode-management": {
+      "group": "barcodes",
+      "complaint_status": "Five one-star reviews inspected. Support availability and reliability warrant validation.",
+      "complaints": [
+        {
+          "summary": "Two merchants reported waiting for chat support (January and August 2026).",
+          "status": "The developer acknowledged a January delay and explained that the small support team was offline.",
+          "source_url": "https://apps.shopify.com/barcode-management/reviews?ratings%5B%5D=1"
+        },
+        {
+          "summary": "An August 2026 reviewer reported a lost label design; a February reviewer described general unreliability.",
+          "status": "Merchant allegations; current reproducibility unknown. Separate billing criticism was disputed by the developer.",
+          "source_url": "https://apps.shopify.com/barcode-management/reviews?ratings%5B%5D=1"
+        }
+      ],
+      "sources": [
+        "https://apps.shopify.com/barcode-management/reviews?ratings%5B%5D=1"
+      ]
+    },
+    "https://apps.shopify.com/trust-badge-by-giraffly": {
+      "group": "badges",
+      "complaint_status": "Four historical one-star reviews inspected in a source indexed six months before research. Current issue status unknown.",
+      "complaints": [
+        {
+          "summary": "Two 2024 merchants described storefront interference: scrolling/layout problems and broken menu/search interactions.",
+          "status": "Historical theme-compatibility concern. The developer requested diagnostics; no current reproduction verified.",
+          "source_url": "https://apps.shopify.com/trust-badge-by-giraffly/reviews?ratings%5B%5D=1"
+        },
+        {
+          "summary": "Another 2024 merchant reported unwanted referral branding on some pages.",
+          "status": "Single report, not a recurring theme. Developer acknowledged the complaint and requested details.",
+          "source_url": "https://apps.shopify.com/trust-badge-by-giraffly/reviews?ratings%5B%5D=1"
+        }
+      ],
+      "sources": [
+        "https://apps.shopify.com/trust-badge-by-giraffly/reviews?ratings%5B%5D=1"
+      ]
+    },
+    "https://apps.shopify.com/yanet-barcode-labels": {
+      "group": "barcodes",
+      "complaint_status": "Seven one-star entries inspected; six contained review text. Recurring printing and support concerns span different years.",
+      "complaints": [
+        {
+          "summary": "A March 2026 merchant reported label dimensions differing from previews and unreadable output. Two 2023 merchants described printing/template failures and difficulty reaching support.",
+          "status": "Historical and recent allegations; current reproduction unknown.",
+          "source_url": "https://apps.shopify.com/yanet-barcode-labels/reviews?ratings%5B%5D=1"
+        },
+        {
+          "summary": "A 2024 merchant disputed generated GTINs.",
+          "status": "The developer attributed this to input country/GS1 prefixes. Validate identifiers and clarify that generating a number does not establish ownership of a prefix.",
+          "source_url": "https://apps.shopify.com/yanet-barcode-labels/reviews?ratings%5B%5D=1"
+        }
+      ],
+      "sources": [
+        "https://apps.shopify.com/yanet-barcode-labels/reviews?ratings%5B%5D=1"
+      ]
+    },
+    "https://apps.shopify.com/zigpoll": {
+      "group": "surveys",
+      "complaint_status": "One one-star review inspected. No recurring complaint established.",
+      "complaints": [
+        {
+          "summary": "An April 2026 merchant criticized AI-analysis accuracy.",
+          "status": "The developer offered to investigate and improve account-specific analysis. Single report; deterministic surveys without AI are a possible narrower scope, not proof of demand for an alternative.",
+          "source_url": "https://apps.shopify.com/zigpoll/reviews?ratings%5B%5D=1"
+        }
+      ],
+      "sources": [
+        "https://apps.shopify.com/zigpoll/reviews?ratings%5B%5D=1"
+      ]
+    },
+    "https://apps.shopify.com/dealer-store-locator": {
+      "group": "store_locator",
+      "complaint_status": "Four one-star entries inspected; three contained merchant text. Different historical concerns, not a demonstrated recurring defect.",
+      "complaints": [
+        {
+          "summary": "An April 2024 merchant reported imported locations missing from the map and unhelpful support.",
+          "status": "Current reproduction unknown. Validate CSV imports and report geocoding failures explicitly.",
+          "source_url": "https://apps.shopify.com/dealer-store-locator/reviews?ratings%5B%5D=1"
+        },
+        {
+          "summary": "A February 2023 merchant objected to separate Google API billing; a November 2023 merchant reported setup failure.",
+          "status": "The developer offered a legacy API-key arrangement and explained that custom themes may need manual setup. Current plans and compatibility require rechecking.",
+          "source_url": "https://apps.shopify.com/dealer-store-locator/reviews?ratings%5B%5D=1"
+        }
+      ],
+      "sources": [
+        "https://apps.shopify.com/dealer-store-locator/reviews?ratings%5B%5D=1"
+      ]
+    }
+  }
+}
