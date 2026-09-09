@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-09",
+  "first_pass_top10": [
+    {
+      "id": "jetbrains",
+      "score": 59.9
+    },
+    {
+      "id": "atlassian",
+      "score": 59.0
+    },
+    {
+      "id": "monday",
+      "score": 59.0
+    },
+    {
+      "id": "bubble",
+      "score": 58.5
+    },
+    {
+      "id": "odoo",
+      "score": 57.5
+    },
+    {
+      "id": "shopware",
+      "score": 56.8
+    },
+    {
+      "id": "coda",
+      "score": 56.5
+    },
+    {
+      "id": "superhive",
+      "score": 56.5
+    },
+    {
+      "id": "woocommerce",
+      "score": 56.3
+    },
+    {
+      "id": "elgato",
+      "score": 55.9
+    }
+  ],
+  "adjustments": {
+    "monday": {
+      "distribution": [
+        7,
+        "The official Pioneera case study explicitly reports community marketing and high-touch support, so marketplace-only acquisition cannot be assumed."
+      ],
+      "support_burden": [
+        6,
+        "The successful portfolio case required direct chat and onboarding; support cannot be treated as negligible."
+      ]
+    },
+    "odoo": {
+      "support_burden": [
+        7,
+        "Vendor guidelines require timely paid-app support; multiple host versions and configuration variants create additional work."
+      ]
+    },
+    "bubble": {
+      "saturation": [
+        7,
+        "Current official catalog lists 7,471 plugin results and substantial free utility competition; a low-saturation prior is too optimistic."
+      ]
+    },
+    "superhive": {
+      "native_monetization": [
+        null,
+        "Official marketplace is discoverable, but seller terms could not be read directly in this environment. Confirm software add-on commercial terms before assigning a billing score."
+      ]
+    },
+    "atlassian": {
+      "platform_risk": [
+        7,
+        "Forge consumption billing and the scheduled October 2026 revenue-share change require more conservative platform-risk assessment."
+      ]
+    }
+  },
+  "note": "All adjustments are inferences; no preference for a named marketplace."
+}

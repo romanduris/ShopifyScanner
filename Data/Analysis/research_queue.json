@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-08",
+  "as_of": "2026-09-09",
   "objective": "Find Shopify apps launched within approximately the last 24 months that are currently demonstrating strong traction, despite competing against established apps, and whose core functionality can be independently rebuilt by a solo developer with Codex in roughly 1–2 weeks.",
-  "launch_cutoff": "2024-09-08",
+  "launch_cutoff": "2024-09-09",
   "collection_status": "Local imports only; search links are research starting points, not completed observations.",
   "discovery_method": "Search focused workflows and direct alternatives; inspect launch dates before shortlisting. Import all verified young entrants without a lifetime-review top-N cap. Record direct competition and comparable recent customer counts. Sample classifications are hypotheses until verified.",
   "tasks": [

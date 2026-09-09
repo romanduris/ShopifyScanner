@@ -1,0 +1,67 @@
+id|name|owner|category|customer|url|docs|profile|saturation|distribution|willingness|economics|native
+shopify|Shopify App Store|Shopify|E-commerce|SMB|https://apps.shopify.com/|https://shopify.dev/docs/apps/launch/billing|saas|9|8|8|6|yes
+connect-iq|Garmin Connect IQ|Garmin|Wearables|consumer|https://apps.garmin.com/|https://developer.garmin.com/connect-iq/monetization/|hardware|6|7|4|5|yes
+atlassian|Atlassian Marketplace|Atlassian|Project management|SMB / enterprise|https://marketplace.atlassian.com/|https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/|forge|7|8|9|8|yes
+jetbrains|JetBrains Marketplace|JetBrains|Developer tools|developer|https://plugins.jetbrains.com/|https://plugins.jetbrains.com/docs/marketplace/revenue-sharing-and-fees.html|jvm|6|8|7|8|yes
+vscode|VS Code Marketplace|Microsoft|Developer tools|developer|https://marketplace.visualstudio.com/vscode|https://code.visualstudio.com/api/working-with-extensions/publishing-extension|local-ts|9|7|4|5|unknown
+chrome|Chrome Web Store|Google|Browser extensions|consumer / SMB|https://chromewebstore.google.com/|https://github.com/GoogleChrome/developer.chrome.com/blob/main/site/en/docs/webstore/cws-payments-deprecation/index.md|browser|9|7|4|5|no
+google-workspace|Google Workspace Marketplace|Google|Office|SMB|https://workspace.google.com/marketplace|https://developers.google.com/workspace/marketplace/how-to-publish|saas|7|7|7|6|unknown
+appsource|Microsoft AppSource|Microsoft|Business software|enterprise|https://appsource.microsoft.com/|https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-commercial-transaction-capabilities-and-considerations|enterprise|7|6|9|5|yes
+teams|Microsoft Teams apps|Microsoft|Collaboration|SMB / enterprise|https://teams.microsoft.com/store|https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview|saas|7|6|8|6|yes
+salesforce|Salesforce AppExchange|Salesforce|CRM|enterprise|https://appexchange.salesforce.com/|https://developer.salesforce.com/blogs/2023/04/prepare-your-app-to-pass-the-appexchange-security-review|enterprise|8|7|9|3|unknown
+wordpress|WordPress plugins|WordPress.org|CMS|SMB|https://wordpress.org/plugins/|https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/|php|10|8|6|6|no
+woocommerce|WooCommerce extensions|Automattic|E-commerce|SMB|https://woocommerce.com/products/|https://woocommerce.com/document/marketplace-overview/|php|8|8|8|7|yes
+samsung|Samsung Galaxy Store|Samsung|Mobile|consumer|https://www.samsung.com/us/apps/galaxy-store/|https://developer.samsung.com/galaxy-store/faq.html|mobile|8|5|4|4|yes
+google-play|Google Play|Google|Mobile|consumer|https://play.google.com/store/apps|https://support.google.com/googleplay/android-developer/answer/6112435|mobile|10|7|5|4|yes
+canva|Canva Apps|Canva|Design|prosumer / SMB|https://www.canva.com/apps/|https://www.canva.dev/docs/apps/monetization/|design-ts|6|7|6|6|conditional
+figma|Figma plugins|Figma|Design|prosumer / SMB|https://www.figma.com/community/plugins|https://developers.figma.com/docs/plugins/requiring-payment/|design-ts|8|8|6|7|yes
+quickbooks|QuickBooks App Store|Intuit|Accounting|SMB|https://quickbooks.intuit.com/app/apps/home/|https://developer.intuit.com/app/developer/qbo/docs/go-live|accounting|7|6|9|4|unknown
+xero|Xero App Store|Xero|Accounting|SMB|https://apps.xero.com/|https://developer.xero.com/pricing|accounting|7|7|9|3|no
+monday|monday.com marketplace|monday.com|Project management|SMB|https://monday.com/marketplace|https://developer.monday.com/apps/docs/subscriptions-payments-and-billing|saas|5|8|8|8|yes
+wix|Wix App Market|Wix|E-commerce|SMB|https://www.wix.com/app-market|https://developers.wixanswers.com/kb/en/article/about-wix-app-market-revenue-share-changes|saas|6|8|7|7|yes
+bigcommerce|BigCommerce Apps|BigCommerce|E-commerce|SMB|https://www.bigcommerce.com/apps/|https://developer.bigcommerce.com/docs/integrations/apps|saas|6|7|8|6|unknown
+prestashop|PrestaShop Marketplace|PrestaShop|E-commerce|SMB|https://addons.prestashop.com/|https://devdocs.prestashop-project.org/9/modules/|php|7|7|7|6|yes
+shopware|Shopware Store|Shopware|E-commerce|SMB|https://store.shopware.com/|https://developer.shopware.com/docs/guides/plugins/|php|6|7|8|7|yes
+magento|Adobe Commerce Marketplace|Adobe|E-commerce|SMB / enterprise|https://commercemarketplace.adobe.com/|https://developer.adobe.com/commerce/marketplace/guides/sellers/|enterprise|8|7|9|4|yes
+opencart|OpenCart Marketplace|OpenCart|E-commerce|SMB|https://www.opencart.com/index.php?route=marketplace/extension|https://docs.opencart.com/|php|7|6|6|6|yes
+odoo|Odoo Apps|Odoo|Business software|SMB|https://apps.odoo.com/apps|https://apps.odoo.com/apps/vendor-guidelines|python|7|8|8|7|yes
+bubble|Bubble Plugins|Bubble|No-code|SMB / developer|https://bubble.io/plugins|https://manual.bubble.io/account-and-marketplace/marketplace-policies|local-ts|6|7|7|8|yes
+webflow|Webflow Apps|Webflow|CMS|prosumer / SMB|https://webflow.com/apps|https://developers.webflow.com/apps/docs/getting-started-apps|design-ts|5|7|7|7|unknown
+framer|Framer Marketplace Plugins|Framer|Design|prosumer|https://www.framer.com/marketplace/plugins/|https://www.framer.com/developers/plugins-introduction|design-ts|5|7|6|7|unknown
+miro|Miro Marketplace|Miro|Collaboration|SMB|https://miro.com/marketplace/|https://developers.miro.com/docs/monetization|design-ts|5|6|7|6|no
+slack|Slack Marketplace|Salesforce|Communication|SMB|https://slack.com/marketplace|https://docs.slack.dev/slack-marketplace/|saas|8|6|7|5|unknown
+zoom|Zoom App Marketplace|Zoom|Communication|SMB|https://marketplace.zoom.us/|https://developers.zoom.us/docs/distribute/|saas|6|6|7|5|unknown
+zendesk|Zendesk Marketplace|Zendesk|Customer support|SMB|https://www.zendesk.com/marketplace/|https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/|saas|6|7|8|7|yes
+freshworks|Freshworks Marketplace|Freshworks|Customer support|SMB|https://www.freshworks.com/apps/|https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/|saas|5|6|7|6|unknown
+hubspot|HubSpot App Marketplace|HubSpot|CRM|SMB|https://ecosystem.hubspot.com/marketplace/apps|https://developers.hubspot.com/docs/apps/developer-platform/list-apps|saas|7|7|8|6|unknown
+pipedrive|Pipedrive Marketplace|Pipedrive|CRM|SMB|https://www.pipedrive.com/en/marketplace|https://pipedrive.readme.io/docs/marketplace-app-approval-process|saas|5|6|7|6|unknown
+zoho|Zoho Marketplace|Zoho|Business software|SMB|https://marketplace.zoho.com/|https://www.zoho.com/marketplace/help-guide/developing-extension.html|saas|5|6|7|6|unknown
+coda|Coda Packs|Grammarly / Coda|Productivity|SMB / prosumer|https://coda.io/gallery|https://help.coda.io/hc/en-us/articles/39555971447053-Sell-your-Packs-on-Coda|local-ts|4|6|6|7|yes
+airtable|Airtable Extensions|Airtable|No-code|SMB|https://www.airtable.com/marketplace|https://airtable.com/developers/extensions|design-ts|5|5|6|5|unknown
+obsidian|Obsidian Community plugins|Dynalist|Productivity|prosumer|https://obsidian.md/plugins|https://obsidian.md/blog/future-of-plugins/|local-ts|7|7|4|5|no
+raycast|Raycast Store|Raycast|Productivity|prosumer / developer|https://www.raycast.com/store|https://developers.raycast.com/basics/publish-an-extension|local-ts|7|7|3|4|unknown
+elgato|Elgato Marketplace|Corsair / Elgato|Creator tools|prosumer|https://marketplace.elgato.com/|https://docs.elgato.com/monetization/revenue-share/|hardware-ts|5|8|6|7|yes
+adobe|Adobe Creative Cloud plugins|Adobe|Design|prosumer|https://exchange.adobe.com/apps|https://developer.adobe.com/premiere-pro/uxp/plugins/|design-ts|6|7|8|7|unknown
+sketchup|SketchUp Extension Warehouse|Trimble|3D / CAD|prosumer / SMB|https://extensions.sketchup.com/|https://developer.sketchup.com/|ruby|6|7|8|7|unknown
+autodesk|Autodesk App Store|Autodesk|3D / CAD|SMB|https://apps.autodesk.com/|https://aps.autodesk.com/app-store/app-store-getting-started|cad|6|7|9|6|yes
+blender|Blender Extensions|Blender Foundation|3D / CAD|prosumer|https://extensions.blender.org/|https://docs.blender.org/manual/en/latest/advanced/extensions/index.html|python|7|7|3|4|no
+superhive|Superhive (Blender Market)|Superhive|3D / CAD|prosumer|https://superhivemarket.com/|https://support.superhivemarket.com/|python|7|8|7|7|yes
+unity|Unity Asset Store|Unity|Gaming tools|developer|https://assetstore.unity.com/|https://assetstore.unity.com/publishing/publish-and-sell-assets|dotnet|8|8|7|6|yes
+fab|Fab|Epic Games|Gaming tools|developer|https://www.fab.com/|https://dev.epicgames.com/documentation/en-us/fab/publisher-get-started-in-fab|cpp|8|7|7|5|yes
+builtbybit|BuiltByBit|BuiltByBit|Gaming plugins|prosumer / SMB|https://builtbybit.com/resources/|https://builtbybit.com/wiki/creator-program/|jvm|6|7|6|6|yes
+home-assistant|Home Assistant integrations|Open Home Foundation|Smart home|consumer|https://www.home-assistant.io/integrations/|https://developers.home-assistant.io/docs/creating_integration_manifest/|hardware|6|4|3|2|no
+homey|Homey App Store|Athom / LG|Smart home|consumer|https://homey.app/en-us/apps/|https://apps.developer.homey.app/|hardware-ts|5|6|3|3|unknown
+synology|Synology Package Center|Synology|NAS|SMB / prosumer|https://www.synology.com/en-global/dsm/packages|https://help.synology.com/developer-guide/|hardware|5|4|6|3|unknown
+qnap|QNAP App Center|QNAP|NAS|SMB / prosumer|https://www.qnap.com/en/app_center/|https://www.qnap.com/en/developer/|hardware|5|4|5|3|unknown
+openwrt|OpenWrt packages|OpenWrt Project|Networking|developer|https://openwrt.org/packages/start|https://openwrt.org/docs/guide-developer/packages|hardware|5|2|2|1|no
+grafana|Grafana Plugins|Grafana Labs|Observability|developer / enterprise|https://grafana.com/grafana/plugins/|https://grafana.com/developers/plugin-tools/|design-ts|5|6|6|5|unknown
+splunk|Splunkbase|Cisco / Splunk|Security / analytics|enterprise|https://splunkbase.splunk.com/|https://dev.splunk.com/enterprise/docs/releaseapps/|enterprise|6|5|9|4|unknown
+servicenow|ServiceNow Store|ServiceNow|Enterprise SaaS|enterprise|https://store.servicenow.com/|https://developer.servicenow.com/|enterprise|6|5|9|2|unknown
+moodle|Moodle Plugins|Moodle|Education|SMB / education|https://moodle.org/plugins/|https://moodledev.io/general/community/plugincontribution|php|6|6|5|5|no
+nextcloud|Nextcloud App Store|Nextcloud|Collaboration|SMB / prosumer|https://apps.nextcloud.com/|https://docs.nextcloud.com/server/latest/developer_manual/app_publishing_maintenance/index.html|php|5|6|5|5|unknown
+apple|Apple App Store|Apple|Mobile|consumer / prosumer|https://www.apple.com/app-store/|https://developer.apple.com/programs/|swift|10|7|6|4|yes
+microsoft-store|Microsoft Store|Microsoft|Desktop|consumer / SMB|https://apps.microsoft.com/|https://learn.microsoft.com/en-us/windows/apps/publish/|dotnet|8|6|5|5|yes
+firefox|Firefox Add-ons|Mozilla|Browser extensions|consumer|https://addons.mozilla.org/|https://extensionworkshop.com/documentation/publish/|browser|7|6|3|4|no
+thunderbird|Thunderbird Add-ons|MZLA Technologies|Email|prosumer|https://addons.thunderbird.net/|https://developer.thunderbird.net/add-ons/about-add-ons|browser|4|6|4|5|unknown
+libreoffice|LibreOffice Extensions|The Document Foundation|Office|consumer / SMB|https://extensions.libreoffice.org/|https://api.libreoffice.org/|python|4|4|3|3|unknown
+qgis|QGIS Plugins|QGIS Association|Data / GIS|prosumer / SMB|https://plugins.qgis.org/|https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/|python|5|6|5|5|no

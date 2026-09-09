@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
 
 permissions:
   contents: read
@@ -18,7 +20,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: read
     outputs:
       pages_enabled: ${{ steps.pages.outputs.enabled }}
@@ -29,10 +31,32 @@ jobs:
           python-version: '3.12'
       - name: Check syntax and test statistics
         run: |
-          python -m py_compile 1.Stats.py app_analysis.py opportunity.py
+          python -m py_compile 1.Stats.py app_analysis.py opportunity.py build_site.py scanner/marketplaces/*.py
           python -m unittest discover -s tests -v
       - name: Generate static dashboard
-        run: python 1.Stats.py
+        env:
+          REFRESH_MARKETS: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          if [ "$REFRESH_MARKETS" = "true" ]; then
+            python build_site.py --refresh
+          else
+            python build_site.py
+          fi
+      - name: Preserve successful observations and generated pages
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Main changed during collection; refusing to publish stale source code. Rerun the workflow."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Data/Marketplaces Data/Stats Data/Analysis HTML
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh marketplace observations and static dashboard"
+            git push origin HEAD:main
+          fi
       - name: Check Pages availability
         id: pages
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'

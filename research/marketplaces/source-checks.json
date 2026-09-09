@@ -1,0 +1,653 @@
+[
+  {
+    "marketplace_id": "shopify",
+    "url": "https://shopify.dev/docs/apps/launch/billing",
+    "resolved_url": "https://shopify.dev/docs/apps/launch/billing",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "About billing for your app",
+    "sha256": "b1ce3d4f01ae0114040cb75d4044afa7c587283bbbce101f3d984607e643542b",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "connect-iq",
+    "url": "https://developer.garmin.com/connect-iq/monetization/",
+    "resolved_url": "https://developer.garmin.com/connect-iq/monetization/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Monetization",
+    "sha256": "f8d90008e93ccfaf000fb09c4b68e6de7dd73440150e5a8cbf1057904b07612e",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "atlassian",
+    "url": "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/",
+    "resolved_url": "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Atlassian Marketplace apps: Pricing, payment, and billing",
+    "sha256": "bd1a455758350658ee745f968166a94b3fe6240fc1030b9210d1e6de796285bd",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "jetbrains",
+    "url": "https://plugins.jetbrains.com/docs/marketplace/revenue-sharing-and-fees.html",
+    "resolved_url": "https://plugins.jetbrains.com/docs/marketplace/revenue-sharing-and-fees.html",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Revenue sharing | JetBrains Marketplace Documentation",
+    "sha256": "fd70950d35afe6cfce52b154e3b92ad67cda090da1ad0b7f4c8f94ffcad69bf3",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "vscode",
+    "url": "https://code.visualstudio.com/api/working-with-extensions/publishing-extension",
+    "resolved_url": "https://code.visualstudio.com/api/working-with-extensions/publishing-extension",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Publishing Extensions | Visual Studio Code Extension\nAPI",
+    "sha256": "99957a8865931cac4fe8211d8f9d714c4310211b7fdfe784008ab46226723e60",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "chrome",
+    "url": "https://github.com/GoogleChrome/developer.chrome.com/blob/main/site/en/docs/webstore/cws-payments-deprecation/index.md",
+    "resolved_url": "https://github.com/GoogleChrome/developer.chrome.com/blob/main/site/en/docs/webstore/cws-payments-deprecation/index.md",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "developer.chrome.com/site/en/docs/webstore/cws-payments-deprecation/index.md at main \u00b7 GoogleChrome/developer.chrome.com \u00b7 GitHub",
+    "sha256": "6ee42e2ad455fb07886d863338819e508fe19077cbc130a4581abbcf0ab72a55",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "google-workspace",
+    "url": "https://developers.google.com/workspace/marketplace/how-to-publish",
+    "resolved_url": "https://developers.google.com/workspace/marketplace/how-to-publish",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Publish apps to the Google Workspace Marketplace \u00a0|\u00a0 Google for Developers",
+    "sha256": "81755abb2475ffd8962f56549dd5ebfae26a82f1674aff326f44a9dd2f1c9dda",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "appsource",
+    "url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-commercial-transaction-capabilities-and-considerations",
+    "resolved_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-commercial-transaction-capabilities-and-considerations",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Microsoft Marketplace transact capabilities - Marketplace publisher | Microsoft Learn",
+    "sha256": "a2bd0f93f441b006733b6165cf39f307e668b687a4df455c4bd134ebd93592b8",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "teams",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview",
+    "resolved_url": "https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Monetize your App - Teams | Microsoft Learn",
+    "sha256": "82f3ae77aaf156d285978f572d97b2a44520bd6cddca852a49009ff53fe3feda",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "salesforce",
+    "url": "https://developer.salesforce.com/blogs/2023/04/prepare-your-app-to-pass-the-appexchange-security-review",
+    "resolved_url": "https://developer.salesforce.com/blogs/2023/04/prepare-your-app-to-pass-the-appexchange-security-review",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Prepare Your App to Pass the AppExchange Security Review | Salesforce Developers Blog",
+    "sha256": "d9b260a3041125419a67cacf57c50c29fcb66b195484f4e81426a90ebf298407",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "wordpress",
+    "url": "https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/",
+    "resolved_url": "https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Detailed Plugin Guidelines \u2013 Plugin Handbook | Developer.WordPress.org",
+    "sha256": "98c6b2c3c98e1dd9bd4120413288cf7940634be1e57552bf52b25a06bb488a40",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "woocommerce",
+    "url": "https://woocommerce.com/document/marketplace-overview/",
+    "resolved_url": "https://developer.woocommerce.com/docs/woo-marketplace/getting-started/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Getting started | WooCommerce developer docs",
+    "sha256": "f853b0869066e5597df0640a0507e7b319e0243eb7ba656dab4b5dcc62699f6b",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "samsung",
+    "url": "https://developer.samsung.com/galaxy-store/faq.html",
+    "resolved_url": "https://developer.samsung.com/galaxy-store/faq.html",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "FAQ | Samsung Developer",
+    "sha256": "6adb2b1203c7f53b691629b1e41a63251c48808c7c0c19b404f8e57640d33f9f",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "google-play",
+    "url": "https://support.google.com/googleplay/android-developer/answer/6112435",
+    "resolved_url": "https://support.google.com/googleplay/android-developer/answer/6112435",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Get started with Play Console - Play Console Help",
+    "sha256": "3981b4e0006bbc93071ea448500633a377873418b0fcc27221fa747ab9fb7559",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "canva",
+    "url": "https://www.canva.dev/docs/apps/monetization/",
+    "resolved_url": "https://www.canva.dev/docs/apps/monetization/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Monetizing apps - Canva Apps SDK Documentation",
+    "sha256": "d5ec11a8200688bb389e4cd7db1426af5c43a54574e64d681e5dec792813302b",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "figma",
+    "url": "https://developers.figma.com/docs/plugins/requiring-payment/",
+    "resolved_url": "https://developers.figma.com/docs/plugins/requiring-payment/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Requiring Payment | Developer Docs",
+    "sha256": "70d306c3a04d498b37a50c34b7b2d168af3fb4c5f19bd3f71eef82d9d078500f",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "quickbooks",
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/go-live",
+    "resolved_url": "https://developer.intuit.com/app/developer/qbo/docs/go-live",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Intuit Developer",
+    "sha256": "cdebe436a0873984710f23cdf5a1ed2bc86a9be71bd8464e7b9d5e1ee9290ff1",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "xero",
+    "url": "https://developer.xero.com/pricing",
+    "resolved_url": "https://developer.xero.com/pricing",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Pricing \u2014 Xero Developer",
+    "sha256": "6cd06c6915f5834d152482ad07e88e097bf4b29e4a2ec3896602f6f3384f8ef0",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "monday",
+    "url": "https://developer.monday.com/apps/docs/subscriptions-payments-and-billing",
+    "resolved_url": "https://developer.monday.com/apps/docs/subscriptions-payments-and-billing",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Subscriptions, payments, and billing",
+    "sha256": "994a956ddac54924ff6c8140057022e211dffabf35073c3d5340a95f38c4c9bb",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "wix",
+    "url": "https://developers.wixanswers.com/kb/en/article/about-wix-app-market-revenue-share-changes",
+    "resolved_url": "https://developers.wixanswers.com/kb/en/article/about-wix-app-market-revenue-share-changes",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "About Wix App Market Revenue Share Changes | Developer Support Center | Wix.com",
+    "sha256": "0ed534b3ba17090d317a73da4b97a5a07dddfbae57281c85c999f740f2457686",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "bigcommerce",
+    "url": "https://developer.bigcommerce.com/docs/integrations/apps",
+    "resolved_url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/introduction",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Introduction to Building Apps | BigCommerce Docs",
+    "sha256": "53a634aaffcaed715042fe19d0ec2cc4b7aec52ba67d7aaf4351e329cf268fe5",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "prestashop",
+    "url": "https://devdocs.prestashop-project.org/9/modules/",
+    "resolved_url": "https://devdocs.prestashop-project.org/9/modules/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "PrestaShop modules :: PrestaShop Developer Documentation",
+    "sha256": "b354d4954ac6f34dae4eee9ce71a61e77e8e81224297d47868705d00242bac2c",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "shopware",
+    "url": "https://developer.shopware.com/docs/guides/plugins/",
+    "resolved_url": "https://developer.shopware.com/docs/guides/plugins/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Extensions | Shopware Documentation",
+    "sha256": "b2746fa269c76a76e6205a6761273e9f1c71eb7c2f4a420d4c2f2b0f38907747",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "magento",
+    "url": "https://developer.adobe.com/commerce/marketplace/guides/sellers/",
+    "resolved_url": "https://developer.adobe.com/commerce/marketplace/guides/sellers/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Getting started",
+    "sha256": "5817967730968c7beb9de85102186dc8dd177765e26ed6160b959dfcae1d7f42",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "opencart",
+    "url": "https://docs.opencart.com/",
+    "resolved_url": "https://docs.opencart.com/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Introduction | OpenCart",
+    "sha256": "672abfd57a9bd4123f03f7486e81b7669260b9d420283c6c51e0c34a1cb05745",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "odoo",
+    "url": "https://apps.odoo.com/apps/vendor-guidelines",
+    "resolved_url": "https://apps.odoo.com/apps/vendor-guidelines",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Odoo Apps Vendor Guidelines | Odoo Apps Store",
+    "sha256": "2e6a813817f345a7480c5498540cde52297de72bc68bad60d3ee183d984256f6",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "bubble",
+    "url": "https://manual.bubble.io/account-and-marketplace/marketplace-policies",
+    "resolved_url": "https://manual.bubble.io/account-and-marketplace/marketplace-policies",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Marketplace policies | Bubble Docs",
+    "sha256": "f82528c34cf1562e80180df207eaf3a5fba6460318e3042c027344c13e5366b1",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "webflow",
+    "url": "https://developers.webflow.com/apps/docs/getting-started-apps",
+    "resolved_url": "https://developers.webflow.com/apps/docs/getting-started-apps",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Getting started with Webflow Apps | Webflow Developer Documentation",
+    "sha256": "0d2395262660b1f98459140c3b85b5fd9c748edacad4d8212deba0b7c775a34a",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "framer",
+    "url": "https://www.framer.com/developers/plugins-introduction",
+    "resolved_url": "https://www.framer.com/developers/plugins-introduction",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Framer Developers: Introduction",
+    "sha256": "dcb5bd27324fdca73e0307fcc7ecdcff0f9fe873a855dba05f1e0259c34243a2",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "miro",
+    "url": "https://developers.miro.com/docs/monetization",
+    "resolved_url": "https://developers.miro.com/docs/monetization",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Monetization",
+    "sha256": "77d82c657d7c62d4cfded69b65ecdc71df8606b000eeac78e2aef22c6f8c341d",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "slack",
+    "url": "https://docs.slack.dev/slack-marketplace/",
+    "resolved_url": "https://docs.slack.dev/slack-marketplace/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Slack Marketplace | Slack Developer Docs",
+    "sha256": "1104c4f699a1ab53c5bea5f25e078644bce28516d5dedcdc9dbf41d211228fdc",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "zoom",
+    "url": "https://developers.zoom.us/docs/distribute/",
+    "resolved_url": "https://developers.zoom.us/docs/distribute/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "App distribution - Distribute - Zoom Developer Docs",
+    "sha256": "80a97d46d89da0ce2ca95f70d539779f3378c69258fe2075f3326faa7342be32",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "zendesk",
+    "url": "https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/",
+    "resolved_url": "https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Submit your app | Zendesk Developer Docs",
+    "sha256": "cfc79cce8a90d090c09e16187e1e7677cdff4d06f72a933b7ba7d6ecad7d70c0",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "freshworks",
+    "url": "https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/",
+    "resolved_url": "https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Freshworks Developer Docs | App submission process",
+    "sha256": "9c3382e8e47ec1f3a063b74e20284688795f962a5a35841d4baf15a6fb9301c7",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "hubspot",
+    "url": "https://developers.hubspot.com/docs/apps/developer-platform/list-apps",
+    "resolved_url": "https://hubspot.mintlify.site/docs/login?redirect=%2Fapps%2Fdeveloper-platform%2Flist-apps",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": null,
+    "sha256": "02d54529620aa6d391a9bdcbb86e0672bb5160eb15bf9258743384d6f2354632",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "pipedrive",
+    "url": "https://pipedrive.readme.io/docs/marketplace-app-approval-process",
+    "resolved_url": "https://pipedrive.readme.io/docs/marketplace-app-approval-process",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "App approval process",
+    "sha256": "eeabf1e78da843983dd5754ebd5b47a2cc163f1e7105cf8193a85f9eb7896035",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "zoho",
+    "url": "https://www.zoho.com/marketplace/help-guide/developing-extension.html",
+    "resolved_url": "https://www.zoho.com/marketplace/help-guide/developing-extension.html",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Build an extension | Zoho Marketplace",
+    "sha256": "94b2362825a0af4ff06e5c6224a6b794bf3f12d145f3444487ededd2d538fb73",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "coda",
+    "url": "https://help.coda.io/hc/en-us/articles/39555971447053-Sell-your-Packs-on-Coda",
+    "checked_at": "2026-09-09",
+    "error": "HTTP Error 403: Forbidden",
+    "method": "Source check failed; not evidence of abandonment"
+  },
+  {
+    "marketplace_id": "airtable",
+    "url": "https://airtable.com/developers/extensions",
+    "resolved_url": "https://airtable.com/developers/extensions",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Airtable Blocks SDK",
+    "sha256": "e8d6a0a1629f45b09a2648c8d4c9feb0764eb9988c9ec36919a243041c66fa0d",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "obsidian",
+    "url": "https://obsidian.md/blog/future-of-plugins/",
+    "resolved_url": "https://obsidian.md/blog/future-of-plugins/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "The future of Obsidian plugins - Obsidian",
+    "sha256": "1c679fd459dcb1305c768de2bb48d9fc688e8d6da2683ffd2a97ddd22938a180",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "raycast",
+    "url": "https://developers.raycast.com/basics/publish-an-extension",
+    "resolved_url": "https://developers.raycast.com/basics/publish-an-extension",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Publish an Extension | Raycast API",
+    "sha256": "a257942b4a17175a6cd5af29716e98645b043680ce826a6bd727e9282df769d1",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "elgato",
+    "url": "https://docs.elgato.com/monetization/revenue-share/",
+    "resolved_url": "https://docs.elgato.com/monetization/revenue-share/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Revenue Share | Marketplace",
+    "sha256": "8a2d2f5a86e45ffb0a11373f7d1c0bf6d9d8e28d1e84351b2f5ffaad0ae37e2d",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "adobe",
+    "url": "https://developer.adobe.com/premiere-pro/uxp/plugins/",
+    "resolved_url": "https://developer.adobe.com/premiere-pro/uxp/plugins/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Building your first UXP plugin",
+    "sha256": "0f8e546049cb96418c43930d6f4dd6c5111c7074b56a8627472fc45017436034",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "sketchup",
+    "url": "https://developer.sketchup.com/",
+    "resolved_url": "https://developer.sketchup.com/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Home | Get Started With Extension Development",
+    "sha256": "5ca8ebd373125fee41a645001ffa35762663d22b1edd091a8c1dbae5909c5824",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "autodesk",
+    "url": "https://aps.autodesk.com/app-store/app-store-getting-started",
+    "resolved_url": "https://aps.autodesk.com/marketplace/getting-started",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Marketplace getting started guide | Autodesk Platform Services (APS)",
+    "sha256": "5b6d4f95415bdf801e7d9485ec285a1ffa5584d1bd0ad0bda3bb16db2dad2373",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "blender",
+    "url": "https://docs.blender.org/manual/en/latest/advanced/extensions/index.html",
+    "resolved_url": "https://docs.blender.org/manual/en/latest/advanced/extensions/index.html",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Creating Extensions - Blender 5.2 LTS Manual",
+    "sha256": "7e272a7a7eb2030703f29181f82538eb1cbd95d3927ccc184f06bee9f6c67fd7",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "superhive",
+    "url": "https://support.superhivemarket.com/",
+    "checked_at": "2026-09-09",
+    "error": "HTTP Error 403: Forbidden",
+    "method": "Source check failed; not evidence of abandonment"
+  },
+  {
+    "marketplace_id": "unity",
+    "url": "https://assetstore.unity.com/publishing/publish-and-sell-assets",
+    "resolved_url": "https://assetstore.unity.com/publishing/publish-and-sell-assets",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Start publishing | Unity Asset Store",
+    "sha256": "fd2f8b6b2525bab860144dcb10d4ab84a2570a297c2f4334a0931dcc822f8fa8",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "fab",
+    "url": "https://dev.epicgames.com/documentation/en-us/fab/publisher-get-started-in-fab",
+    "resolved_url": "https://dev.epicgames.com/documentation/en-us/fab/publisher-get-started-in-fab",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Publisher Get Started in Fab  | Fab Documentation | Epic Developer Community",
+    "sha256": "ee871eb32801b9cab2dc6c54a4669dee0e0358c98ffafe60fabfe4877bb9c00b",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "builtbybit",
+    "url": "https://builtbybit.com/wiki/creator-program/",
+    "checked_at": "2026-09-09",
+    "error": "HTTP Error 403: Forbidden",
+    "method": "Source check failed; not evidence of abandonment"
+  },
+  {
+    "marketplace_id": "home-assistant",
+    "url": "https://developers.home-assistant.io/docs/creating_integration_manifest/",
+    "resolved_url": "https://developers.home-assistant.io/docs/creating_integration_manifest/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Integration manifest | Home Assistant Developer Docs",
+    "sha256": "132e0625140bccc94684d9baf235823b3b844502dc5f3349fdc73f6051dc1a7c",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "homey",
+    "url": "https://apps.developer.homey.app/",
+    "resolved_url": "https://apps.developer.homey.app/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Welcome to the Homey Apps SDK \ud83d\udc4b | Homey Apps SDK",
+    "sha256": "92d5f10a6da30f79565ec966396fd934422c53e4dae47d016b860e959148396d",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "synology",
+    "url": "https://help.synology.com/developer-guide/",
+    "resolved_url": "https://help.synology.com/developer-guide/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Package Developer Guide \u00b7 GitBook",
+    "sha256": "c9573c19553c4d4e74834f6c7d5bcb48f0070ff820169c7b93eb0cc34cdaedaf",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "qnap",
+    "url": "https://www.qnap.com/en/developer/",
+    "resolved_url": "https://www.qnap.com/en/developer/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Developer Center | QNAP",
+    "sha256": "40dbe84ed6e2f4a491ebf0e5d56141d43a5a547379b43bcd063a90978f5736e9",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "openwrt",
+    "url": "https://openwrt.org/docs/guide-developer/packages",
+    "resolved_url": "https://openwrt.org/docs/guide-developer/packages",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "[OpenWrt Wiki] Creating packages",
+    "sha256": "3382c6f559ddb83788cbcbdd5c6620dda3867de2fcea35d05429294c6b75a3da",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "grafana",
+    "url": "https://grafana.com/developers/plugin-tools/",
+    "resolved_url": "https://grafana.com/developers/plugin-tools/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Get started | Grafana Plugin Tools",
+    "sha256": "1f5afd541e90bb229f12da17eb6b9f041482ed2921aab0edc3ba02c9010bf662",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "splunk",
+    "url": "https://dev.splunk.com/enterprise/docs/releaseapps/",
+    "resolved_url": "https://dev.splunk.com/enterprise/docs/releaseapps/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Splunk Developer Program",
+    "sha256": "9618a202b5e038dd76745b86a37f0d74b1b9c099d347bca0b0b94ca354566382",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "servicenow",
+    "url": "https://developer.servicenow.com/",
+    "resolved_url": "https://developer.servicenow.com/dev.do",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "ServiceNow Developers",
+    "sha256": "b8c5763df7041a392510dbabd1049d43aa0c8ed61feeb17fe15167cb4b5f2973",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "moodle",
+    "url": "https://moodledev.io/general/community/plugincontribution",
+    "resolved_url": "https://moodledev.io/general/community/plugincontribution",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Plugin contribution | Moodle Developer Resources",
+    "sha256": "ce344f65c1b77579b60b92819586208309a158cd4f66a4a5e11d9867767ace67",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "nextcloud",
+    "url": "https://docs.nextcloud.com/server/latest/developer_manual/app_publishing_maintenance/index.html",
+    "resolved_url": "https://docs.nextcloud.com/server/latest/developer_manual/app_publishing_maintenance/index.html",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "App publishing and maintenance \u2014 Nextcloud 35 Developer Manual",
+    "sha256": "d30b30a1c430f367a73228e69072f843d1f937cc7372bf9db117afd940ec4f23",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "apple",
+    "url": "https://developer.apple.com/programs/",
+    "resolved_url": "https://developer.apple.com/programs/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Apple Developer Program - Apple Developer",
+    "sha256": "6a191d3129430ca2d1c53a5a5918a928b1cc2061584ae1f033962e1bf2285a66",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "microsoft-store",
+    "url": "https://learn.microsoft.com/en-us/windows/apps/publish/",
+    "resolved_url": "https://learn.microsoft.com/en-us/windows/apps/publish/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Publish apps & games to Microsoft Store on Windows - Windows apps | Microsoft Learn",
+    "sha256": "56715a57cd6409660eb8ff5746208c4f07dc6167edd1c5a4708fdb7920c9d436",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "firefox",
+    "url": "https://extensionworkshop.com/documentation/publish/",
+    "resolved_url": "https://extensionworkshop.com/documentation/publish/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Distribute and promote your extension to the right audience | Firefox Extension Workshop",
+    "sha256": "7bfe8fc2e470d839aa0c01a2b983c0d93db86e8795ca2244470089192f8a9d02",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "thunderbird",
+    "url": "https://developer.thunderbird.net/add-ons/about-add-ons",
+    "resolved_url": "https://developer.thunderbird.net/add-ons/about-add-ons",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "Introduction | Thunderbird",
+    "sha256": "5c9220d081ad6dd4f47a7e84d815696c6ef63731d4df858518a325bcc81d9a57",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "libreoffice",
+    "url": "https://api.libreoffice.org/",
+    "resolved_url": "https://api.libreoffice.org/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "LibreOffice 26.8 SDK - Overview",
+    "sha256": "b69e63116a235ae0fcb244a3eca89e38811932a041f79631515595d8a8721bb2",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  },
+  {
+    "marketplace_id": "qgis",
+    "url": "https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/",
+    "resolved_url": "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/",
+    "checked_at": "2026-09-09",
+    "http_status": 200,
+    "title": "PyQGIS Developer Cookbook \u2014 QGIS Documentation  documentation",
+    "sha256": "519b18620154098c5c2af497c986936297ef156487c12fc68e36fac00628eb84",
+    "method": "Direct HTTP source availability check; does not verify every claim"
+  }
+]

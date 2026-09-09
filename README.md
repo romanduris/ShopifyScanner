@@ -1,4 +1,56 @@
-# Shopify Opportunity Scanner
+# Opportunity Scanner
+
+Compare **66 software marketplaces** for a solo developer building small products
+with Codex, alongside the existing Shopify app opportunity scanner.
+
+Public dashboard: https://romanduris.github.io/ShopifyScanner/
+
+```bash
+# Build both modules from the last successful inputs (no network required)
+python3 build_site.py
+
+# Refresh WordPress/Obsidian public JSON adapters and build both modules
+python3 build_site.py --refresh
+
+python3 -m unittest discover -s tests -v
+```
+
+The site includes **Marketplaces**, **Shopify Apps**, **Top Opportunities** and
+**Changes**. Search, category/verdict filters, combined numeric thresholds and
+sortable columns work in static JavaScript; each marketplace has a permanent
+detail page. CSV/JSON exports include provenance. Pages also remain readable
+without JavaScript and with Codespaces stopped.
+
+Market rankings are **provisional**: facts, estimates and inferences are labeled,
+unknown entrant evidence stays unknown, and overall scores show conservative
+bounds. Small-product prices are hypothetical scenarios, not marketplace medians.
+Top 3/10 entries are investigation priorities, not validated opportunities.
+The baseline does not establish five to ten paid recent entrants per ecosystem.
+
+The existing `pages.yml` workflow now builds both modules on pushes/PRs. A daily
+05:17 UTC schedule and `workflow_dispatch` refresh the two public JSON adapters,
+preserve observations/snapshots and deploy the latest successful build. Other
+marketplace policies and judgments require reviewed research imports; the schedule
+does not automatically research every marketplace or fabricate fresh check dates.
+Complete collection failure or build failure prevents deployment and retains the
+last public version. No competing deployment workflow or production backend exists.
+
+- `scanner/marketplaces/`: model, validation, adapters, scoring and static renderer.
+- `Data/Marketplaces/sources/research.json`: editable, sourced research and scoped estimates.
+- `Data/Marketplaces/sources/observations.json`: last successful automatic observations.
+- `Data/Marketplaces/history/`: source snapshots, with no invented baseline growth.
+- `research/marketplaces/`: candidate universe, source checks, methodology and review record.
+- `HTML/index.html`: marketplace comparison; `HTML/shopify.html`: original Shopify module.
+
+See [marketplace methodology](research/marketplaces/methodology.md) for collection
+coverage, scoring formulas, rejection reasons, confidence and research limitations.
+
+## Existing Shopify module
+
+The Shopify-specific documentation below remains applicable to the standalone
+`1.Stats.py` command. That command generates the Shopify page at `HTML/index.html`;
+run `build_site.py` to regenerate the unified production site before publishing.
+The unified workflow supersedes the former Shopify-only deployment behavior.
 
 Find Shopify apps launched within approximately the last 24 months that are
 currently demonstrating strong traction, despite competing against established
@@ -68,8 +120,9 @@ Source → GitHub Actions**. If Pages is not configured, the workflow completes
 validation, uploads the `github-pages` artifact and skips deployment. After
 configuring Pages, rerun the workflow. Only `HTML/` is published.
 
-There is no daily schedule yet: running the same inputs again does not produce
-new market observations. The workflow does not modify or commit repository data.
+The Shopify module still processes reviewed imports; its data is not scraped on
+a schedule. The unified workflow refreshes supported marketplace adapters and
+persists their successful observations, as described above.
 
 ## Data
 
