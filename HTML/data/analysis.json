@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "as_of": "2026-09-11",
+  "as_of": "2026-09-12",
   "weights": {
     "demand": 35,
     "satisfaction": 15,
@@ -49,7 +49,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2024-11-11; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-11-11; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/clay-b2b-wholesale-form"
             ],
@@ -91,7 +91,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -163,7 +163,7 @@
           "satisfaction": 99.6,
           "growth": null,
           "monetization": 99.6,
-          "credibility": 59.2
+          "credibility": 59.3
         },
         "missing": [
           "growth"
@@ -184,7 +184,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2025-06-11; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2025-06-11; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/kaching-subscriptions"
             ],
@@ -226,7 +226,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -290,7 +290,7 @@
           "satisfaction": 99.0,
           "growth": null,
           "monetization": 90.8,
-          "credibility": 54.3
+          "credibility": 54.4
         },
         "missing": [
           "growth"
@@ -311,7 +311,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2025-08-27; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2025-08-27; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/watermelon"
             ],
@@ -353,7 +353,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -397,7 +397,7 @@
           "satisfaction": 91.9,
           "growth": null,
           "monetization": 0,
-          "credibility": 26.9
+          "credibility": 27.0
         },
         "missing": [
           "growth"
@@ -418,7 +418,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2025-07-17; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2025-07-17; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/microsoft-clarity"
             ],
@@ -460,7 +460,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -530,7 +530,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2026-03-11; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2026-03-11; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/eu-withdrawal-form"
             ],
@@ -572,7 +572,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -616,7 +616,7 @@
           "satisfaction": 87.6,
           "growth": null,
           "monetization": 0,
-          "credibility": 32.0
+          "credibility": 32.1
         },
         "missing": [
           "growth"
@@ -637,7 +637,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2025-04-28; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2025-04-28; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/collective"
             ],
@@ -679,7 +679,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -751,7 +751,7 @@
           "satisfaction": 87.8,
           "growth": null,
           "monetization": null,
-          "credibility": 27.3
+          "credibility": 27.4
         },
         "missing": [
           "growth",
@@ -773,7 +773,7 @@
         "gates": {
           "age": {
             "status": "pass",
-            "reason": "Launched 2025-07-11; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2025-07-11; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/whatsapp"
             ],
@@ -815,7 +815,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -892,7 +892,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-07-31; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-07-31; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/bulk-product-editor"
             ],
@@ -934,7 +934,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1007,7 +1007,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-12-03; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-12-03; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/avada-pdf-invoice"
             ],
@@ -1049,7 +1049,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1134,7 +1134,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-01-21; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-01-21; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/cowlendar"
             ],
@@ -1176,7 +1176,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1245,7 +1245,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-02-03; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-02-03; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/appstle-memberships"
             ],
@@ -1287,7 +1287,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1373,7 +1373,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-04-08; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-04-08; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/subscriptions-by-appstle"
             ],
@@ -1415,7 +1415,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1500,7 +1500,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-04-21; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-04-21; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/avada-seo-suite"
             ],
@@ -1542,7 +1542,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1586,7 +1586,7 @@
           "satisfaction": 98.6,
           "growth": null,
           "monetization": 99.6,
-          "credibility": 81.5
+          "credibility": 81.6
         },
         "missing": [
           "growth"
@@ -1607,7 +1607,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2024-06-27; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-06-27; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/avada-order-limit"
             ],
@@ -1649,7 +1649,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1714,7 +1714,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2015-01-06; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2015-01-06; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/wholesale-hub"
             ],
@@ -1756,7 +1756,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1849,7 +1849,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-01-25; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-01-25; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/doubly-currency-converter"
             ],
@@ -1891,7 +1891,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -1957,7 +1957,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-10-01; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-10-01; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/best-fit-size-charts-size-guides"
             ],
@@ -1999,7 +1999,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2059,7 +2059,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-05-12; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-05-12; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/appointment-booking-bookeasy"
             ],
@@ -2101,7 +2101,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2170,7 +2170,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-03-28; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-03-28; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/booster-apps-seo-optimizer"
             ],
@@ -2212,7 +2212,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2277,7 +2277,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-07-31; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-07-31; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/pushowl"
             ],
@@ -2319,7 +2319,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2404,7 +2404,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-09-18; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-09-18; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/b2b-solution-custom-pricing"
             ],
@@ -2446,7 +2446,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2539,7 +2539,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-07-02; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-07-02; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/bundler-product-bundles"
             ],
@@ -2581,7 +2581,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2634,7 +2634,7 @@
           "satisfaction": 95.2,
           "growth": null,
           "monetization": 0,
-          "credibility": 77.0
+          "credibility": 77.1
         },
         "missing": [
           "growth"
@@ -2655,7 +2655,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2024-09-06; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-09-06; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/canva-connect"
             ],
@@ -2697,7 +2697,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2757,7 +2757,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-06-18; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-06-18; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/amazon-by-cedcommerce"
             ],
@@ -2799,7 +2799,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -2892,7 +2892,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-06-09; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-06-09; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/chatty"
             ],
@@ -2934,7 +2934,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3012,7 +3012,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-01-06; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-01-06; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/cucheng"
             ],
@@ -3054,7 +3054,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3135,7 +3135,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-07-23; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-07-23; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/variant-swatch-king"
             ],
@@ -3177,7 +3177,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3262,7 +3262,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-05-03; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-05-03; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/gdpr-backpack"
             ],
@@ -3304,7 +3304,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3373,7 +3373,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-10-27; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-10-27; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/ecomsend"
             ],
@@ -3415,7 +3415,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3500,7 +3500,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-04-05; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-04-05; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/filemonk"
             ],
@@ -3542,7 +3542,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3602,7 +3602,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-10-19; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-10-19; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/discounty-bulk-discount-sales"
             ],
@@ -3644,7 +3644,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3717,7 +3717,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-03-15; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-03-15; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/dondy-marketing-ai"
             ],
@@ -3759,7 +3759,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3844,7 +3844,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-08-06; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-08-06; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/aliexpress-dropshipping-master"
             ],
@@ -3886,7 +3886,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -3967,7 +3967,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-10-26; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-10-26; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/dsers"
             ],
@@ -4009,7 +4009,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4090,7 +4090,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-04-20; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-04-20; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/easify-product-options"
             ],
@@ -4132,7 +4132,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4217,7 +4217,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-07-07; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-07-07; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/appointments-and-bookings"
             ],
@@ -4259,7 +4259,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4328,7 +4328,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-09-06; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-09-06; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/easyship"
             ],
@@ -4370,7 +4370,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4439,7 +4439,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-09-26; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-09-26; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/eprolo"
             ],
@@ -4481,7 +4481,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4541,7 +4541,7 @@
           "satisfaction": 99.8,
           "growth": null,
           "monetization": 99.6,
-          "credibility": 82.6
+          "credibility": 82.7
         },
         "missing": [
           "growth"
@@ -4562,7 +4562,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2024-06-10; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-06-10; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/essential-post-purchase-upsell"
             ],
@@ -4604,7 +4604,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4656,7 +4656,7 @@
           "satisfaction": 84.7,
           "growth": null,
           "monetization": 95.0,
-          "credibility": 79.9
+          "credibility": 80.0
         },
         "missing": [
           "growth"
@@ -4677,7 +4677,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2024-07-22; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-07-22; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/ezinvoices"
             ],
@@ -4719,7 +4719,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4804,7 +4804,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-07-28; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-07-28; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/ez-label"
             ],
@@ -4846,7 +4846,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -4916,7 +4916,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-10-04; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-10-04; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/facebook"
             ],
@@ -4958,7 +4958,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5030,7 +5030,7 @@
           "satisfaction": 97.7,
           "growth": null,
           "monetization": 0,
-          "credibility": 99.1
+          "credibility": 99.2
         },
         "missing": [
           "growth"
@@ -5051,7 +5051,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-09-26; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-09-26; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/faire-buy-wholesale"
             ],
@@ -5093,7 +5093,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5188,7 +5188,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-08-15; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-08-15; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/faire-sell-wholesale"
             ],
@@ -5230,7 +5230,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5323,7 +5323,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-03-13; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-03-13; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/gempages"
             ],
@@ -5365,7 +5365,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5442,7 +5442,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-03-10; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-03-10; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/globo-color-swatches"
             ],
@@ -5484,7 +5484,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5569,7 +5569,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-12-16; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-12-16; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/product-options-pro"
             ],
@@ -5611,7 +5611,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5697,7 +5697,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-11-28; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-11-28; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/google"
             ],
@@ -5739,7 +5739,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5832,7 +5832,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-03-01; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-03-01; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/helpdesk"
             ],
@@ -5874,7 +5874,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -5951,7 +5951,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-01-07; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-01-07; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/translate-my-store"
             ],
@@ -5993,7 +5993,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6066,7 +6066,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2015-10-05; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2015-10-05; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/bulk-product-edit"
             ],
@@ -6108,7 +6108,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6182,7 +6182,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2015-06-22; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2015-06-22; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/custom-options"
             ],
@@ -6224,7 +6224,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6309,7 +6309,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-09-30; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-09-30; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/instafeed"
             ],
@@ -6351,7 +6351,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6411,7 +6411,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2015-06-25; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2015-06-25; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/judgeme"
             ],
@@ -6453,7 +6453,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6513,7 +6513,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-08-11; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-08-11; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/bundle-deals"
             ],
@@ -6555,7 +6555,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6628,7 +6628,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2012-09-20; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2012-09-20; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/klaviyo-email-marketing"
             ],
@@ -6670,7 +6670,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6755,7 +6755,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-03-24; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-03-24; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/langify"
             ],
@@ -6797,7 +6797,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6870,7 +6870,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-12-12; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-12-12; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/layout-hub"
             ],
@@ -6912,7 +6912,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -6989,7 +6989,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-05-18; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-05-18; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/litcommerce"
             ],
@@ -7031,7 +7031,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7124,7 +7124,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-05-27; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-05-27; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/loop-returns"
             ],
@@ -7166,7 +7166,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7231,7 +7231,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-07-27; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-07-27; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/loop-subscriptions"
             ],
@@ -7273,7 +7273,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7358,7 +7358,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-11-16; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-11-16; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/dealer-store-locator"
             ],
@@ -7400,7 +7400,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7474,7 +7474,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-07-07; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-07-07; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/excel-export-import"
             ],
@@ -7516,7 +7516,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7590,7 +7590,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-07-01; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-07-01; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/ig-fb-shoppable-comments"
             ],
@@ -7632,7 +7632,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7725,7 +7725,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-07-27; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-07-27; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/mida-session-recording-replay"
             ],
@@ -7767,7 +7767,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7836,7 +7836,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-05-08; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-05-08; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/barcode-management"
             ],
@@ -7878,7 +7878,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -7962,7 +7962,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-04-20; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-04-20; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/multiple-google-shopping-feeds"
             ],
@@ -8004,7 +8004,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8069,7 +8069,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-05-19; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-05-19; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/preorder-back-in-stock"
             ],
@@ -8111,7 +8111,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8176,7 +8176,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-12-09; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-12-09; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/eu-cookie-bar"
             ],
@@ -8218,7 +8218,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8287,7 +8287,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-10-05; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-10-05; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/auto-currency-switcher-1"
             ],
@@ -8329,7 +8329,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8394,7 +8394,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-03-10; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-03-10; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/omnisend"
             ],
@@ -8436,7 +8436,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8521,7 +8521,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-12-02; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-12-02; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/product-options-by-bss"
             ],
@@ -8563,7 +8563,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8648,7 +8648,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-12-02; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-12-02; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/order-printer-pro"
             ],
@@ -8690,7 +8690,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8776,7 +8776,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-05-01; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-05-01; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/order-printer-templates"
             ],
@@ -8818,7 +8818,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -8905,7 +8905,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-09-28; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-09-28; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/pagefly"
             ],
@@ -8947,7 +8947,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9024,7 +9024,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-09-26; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-09-26; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/gdpr-cookie-consent"
             ],
@@ -9066,7 +9066,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9135,7 +9135,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-01-25; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-01-25; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/parcelpanel"
             ],
@@ -9177,7 +9177,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9247,7 +9247,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-02-18; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-02-18; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/pinterest"
             ],
@@ -9289,7 +9289,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9383,7 +9383,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-02-22; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-02-22; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/pop-convert"
             ],
@@ -9425,7 +9425,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9510,7 +9510,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-11-01; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-11-01; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/back-in-stock-restock-alerts"
             ],
@@ -9552,7 +9552,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9617,7 +9617,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2013-11-25; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2013-11-25; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/printful"
             ],
@@ -9659,7 +9659,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9724,7 +9724,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2015-09-08; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2015-09-08; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/printify"
             ],
@@ -9766,7 +9766,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9831,7 +9831,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-06-17; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-06-17; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/session-recording-now"
             ],
@@ -9873,7 +9873,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -9942,7 +9942,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-01-13; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-01-13; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/live-chat-and-cloud-api"
             ],
@@ -9984,7 +9984,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10061,7 +10061,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-10-14; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-10-14; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/subscription-payments"
             ],
@@ -10103,7 +10103,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10188,7 +10188,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-07-09; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-07-09; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/cash-on-delivery-fee"
             ],
@@ -10230,7 +10230,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10269,7 +10269,7 @@
           "satisfaction": 97.5,
           "growth": null,
           "monetization": 90.8,
-          "credibility": 98.5
+          "credibility": 98.6
         },
         "missing": [
           "growth"
@@ -10290,7 +10290,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-10-05; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-10-05; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/reputon-amazon-affiliate"
             ],
@@ -10332,7 +10332,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10425,7 +10425,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-01-05; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-01-05; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/backup"
             ],
@@ -10467,7 +10467,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10528,7 +10528,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-06-28; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-06-28; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
             ],
@@ -10570,7 +10570,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10642,7 +10642,7 @@
           "satisfaction": 97.6,
           "growth": null,
           "monetization": 100,
-          "credibility": 99.1
+          "credibility": 99.2
         },
         "missing": [
           "growth"
@@ -10663,7 +10663,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2023-09-26; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2023-09-26; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/wholesale-sami"
             ],
@@ -10705,7 +10705,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10799,7 +10799,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-03-18; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-03-18; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/seal-subscriptions"
             ],
@@ -10841,7 +10841,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -10928,7 +10928,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-03-29; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-03-29; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/section-factory"
             ],
@@ -10970,7 +10970,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11047,7 +11047,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-12-13; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-12-13; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/seguno"
             ],
@@ -11089,7 +11089,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11174,7 +11174,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-11-21; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-11-21; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/trust-badge-by-giraffly"
             ],
@@ -11216,7 +11216,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11295,7 +11295,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2011-11-14; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2011-11-14; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/shipstation"
             ],
@@ -11337,7 +11337,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11407,7 +11407,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2015-09-21; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2015-09-21; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/shogun"
             ],
@@ -11449,7 +11449,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11527,7 +11527,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-09-22; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-09-22; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/shop"
             ],
@@ -11569,7 +11569,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11629,7 +11629,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-09-18; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-09-18; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/flow"
             ],
@@ -11671,7 +11671,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11710,7 +11710,7 @@
           "satisfaction": 74.1,
           "growth": null,
           "monetization": 0,
-          "credibility": 61.0
+          "credibility": 61.1
         },
         "missing": [
           "growth"
@@ -11731,7 +11731,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2024-01-31; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-01-31; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/shopify-subscriptions"
             ],
@@ -11773,7 +11773,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11858,7 +11858,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-08-16; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-08-16; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/translate-and-adapt"
             ],
@@ -11900,7 +11900,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -11974,7 +11974,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-02-14; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-02-14; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/simple-invoice-order-printer"
             ],
@@ -12016,7 +12016,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12101,7 +12101,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-08-16; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-08-16; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/google-shopping-feed"
             ],
@@ -12143,7 +12143,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12209,7 +12209,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-12-02; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-12-02; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/smile-io"
             ],
@@ -12251,7 +12251,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12311,7 +12311,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2013-07-22; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2013-07-22; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/sufio"
             ],
@@ -12353,7 +12353,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12439,7 +12439,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-07-29; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-07-29; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/swym-relay"
             ],
@@ -12481,7 +12481,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12541,7 +12541,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-03-14; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-03-14; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/syncee-1"
             ],
@@ -12583,7 +12583,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12665,7 +12665,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-05-15; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-05-15; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/stock-sync"
             ],
@@ -12707,7 +12707,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12780,7 +12780,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2014-07-14; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2014-07-14; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/tidio-chat"
             ],
@@ -12822,7 +12822,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -12901,7 +12901,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2020-10-14; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2020-10-14; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/tiktok"
             ],
@@ -12943,7 +12943,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13009,14 +13009,14 @@
       "success": {
         "score": 80.4,
         "coverage": 60,
-        "lower_bound": 48.2,
-        "upper_bound": 88.2,
+        "lower_bound": 48.3,
+        "upper_bound": 88.3,
         "components": {
           "demand": 72.7,
           "satisfaction": 97.6,
           "growth": null,
           "monetization": null,
-          "credibility": 81.6
+          "credibility": 81.7
         },
         "missing": [
           "growth",
@@ -13038,7 +13038,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2024-06-26; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2024-06-26; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/slashcart-tiktok-shop-sync"
             ],
@@ -13080,7 +13080,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13173,7 +13173,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-12-02; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-12-02; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/terms-and-conditions-checkbox"
             ],
@@ -13215,7 +13215,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13289,7 +13289,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-01-12; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-01-12; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/track123"
             ],
@@ -13331,7 +13331,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13400,7 +13400,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-08-13; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-08-13; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/trackingmore"
             ],
@@ -13442,7 +13442,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13511,7 +13511,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2017-04-04; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2017-04-04; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/multilingual-shop-by-gtranslate"
             ],
@@ -13553,7 +13553,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13626,7 +13626,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-05-15; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-05-15; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/affliate-by-secomapp"
             ],
@@ -13668,7 +13668,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13728,7 +13728,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2021-01-08; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2021-01-08; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/vify-order-printer"
             ],
@@ -13770,7 +13770,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13855,7 +13855,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-04-04; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-04-04; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/wholesale-pricing-discount"
             ],
@@ -13897,7 +13897,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -13990,7 +13990,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2022-06-09; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2022-06-09; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/yanet-barcode-labels"
             ],
@@ -14032,7 +14032,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -14116,7 +14116,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2016-08-22; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2016-08-22; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/product-personalizer"
             ],
@@ -14158,7 +14158,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -14243,7 +14243,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2019-04-23; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2019-04-23; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/zigpoll"
             ],
@@ -14285,7 +14285,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -14359,7 +14359,7 @@
         "gates": {
           "age": {
             "status": "fail",
-            "reason": "Launched 2018-08-08; eligible from 2024-09-11 through 2026-09-11.",
+            "reason": "Launched 2018-08-08; eligible from 2024-09-12 through 2026-09-12.",
             "sources": [
               "https://apps.shopify.com/ali-orders-by-fireapps"
             ],
@@ -14401,7 +14401,7 @@
           "build": null,
           "weakness": null
         },
-        "launch_cutoff": "2024-09-11",
+        "launch_cutoff": "2024-09-12",
         "incumbents": [],
         "evidence": {},
         "review_growth_proxy": null,
@@ -14465,9 +14465,9 @@
   },
   "research_queue": {
     "schema_version": 1,
-    "as_of": "2026-09-11",
+    "as_of": "2026-09-12",
     "objective": "Find Shopify apps launched within approximately the last 24 months that are currently demonstrating strong traction, despite competing against established apps, and whose core functionality can be independently rebuilt by a solo developer with Codex in roughly 1–2 weeks.",
-    "launch_cutoff": "2024-09-11",
+    "launch_cutoff": "2024-09-12",
     "collection_status": "Local imports only; search links are research starting points, not completed observations.",
     "discovery_method": "Search focused workflows and direct alternatives; inspect launch dates before shortlisting. Import all verified young entrants without a lifetime-review top-N cap. Record direct competition and comparable recent customer counts. Sample classifications are hypotheses until verified.",
     "tasks": [

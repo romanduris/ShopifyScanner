@@ -7000,5 +7000,2339 @@
         }
       }
     ]
+  },
+  {
+    "collected_at": "2026-09-12T09:21:52.444885+00:00",
+    "source_fingerprint": "c7dde706af16859f4ce81976c0b8d7bbfa5ea3e42e61b25935970c0dc226080d",
+    "marketplaces": [
+      {
+        "id": "shopify",
+        "metrics": {
+          "app_count": {
+            "value": 16000,
+            "sources": [
+              "https://apps.shopify.com/"
+            ],
+            "date_checked": "2026-09-08",
+            "confidence": "HIGH",
+            "kind": "FACT",
+            "note": "Published marketplace lower bound inherited from the existing Shopify scanner.",
+            "unit": "apps",
+            "scope": "marketplace-wide",
+            "relation": "greater_than"
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://shopify.dev/docs/apps/launch/billing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://shopify.dev/docs/apps/launch/billing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "connect-iq",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.garmin.com/connect-iq/monetization/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.garmin.com/connect-iq/monetization/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.garmin.com/connect-iq/monetization/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "atlassian",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "jetbrains",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://plugins.jetbrains.com/docs/marketplace/revenue-sharing-and-fees.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://plugins.jetbrains.com/docs/marketplace/revenue-sharing-and-fees.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://plugins.jetbrains.com/docs/marketplace/revenue-sharing-and-fees.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "vscode",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://code.visualstudio.com/api/working-with-extensions/publishing-extension"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://code.visualstudio.com/api/working-with-extensions/publishing-extension"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://code.visualstudio.com/api/working-with-extensions/publishing-extension"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "chrome",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://github.com/GoogleChrome/developer.chrome.com/blob/main/site/en/docs/webstore/cws-payments-deprecation/index.md"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://github.com/GoogleChrome/developer.chrome.com/blob/main/site/en/docs/webstore/cws-payments-deprecation/index.md"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://github.com/GoogleChrome/developer.chrome.com/blob/main/site/en/docs/webstore/cws-payments-deprecation/index.md"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "google-workspace",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.google.com/workspace/marketplace/how-to-publish"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.google.com/workspace/marketplace/how-to-publish"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.google.com/workspace/marketplace/how-to-publish"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "appsource",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-commercial-transaction-capabilities-and-considerations"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-commercial-transaction-capabilities-and-considerations"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-commercial-transaction-capabilities-and-considerations"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "teams",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "salesforce",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.salesforce.com/blogs/2023/04/prepare-your-app-to-pass-the-appexchange-security-review"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.salesforce.com/blogs/2023/04/prepare-your-app-to-pass-the-appexchange-security-review"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.salesforce.com/blogs/2023/04/prepare-your-app-to-pass-the-appexchange-security-review"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "wordpress",
+        "metrics": {
+          "app_count": {
+            "value": 72193,
+            "sources": [
+              "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bbrowse%5D=new&request%5Bper_page%5D=100&request%5Bfields%5D%5Bdescription%5D=0&request%5Bfields%5D%5Bsections%5D=0"
+            ],
+            "date_checked": "2026-09-12",
+            "kind": "FACT",
+            "confidence": "HIGH",
+            "note": "WordPress API new-browse result total; directory population, not paid plugins or active publishers.",
+            "unit": "plugins",
+            "scope": "wordpress-api-new-browse",
+            "relation": "exact"
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "woocommerce",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://woocommerce.com/document/marketplace-overview/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://woocommerce.com/document/marketplace-overview/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://woocommerce.com/document/marketplace-overview/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "samsung",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.samsung.com/galaxy-store/faq.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.samsung.com/galaxy-store/faq.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.samsung.com/galaxy-store/faq.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "google-play",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://support.google.com/googleplay/android-developer/answer/6112435"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://support.google.com/googleplay/android-developer/answer/6112435"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://support.google.com/googleplay/android-developer/answer/6112435"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "canva",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://www.canva.dev/docs/apps/monetization/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://www.canva.dev/docs/apps/monetization/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://www.canva.dev/docs/apps/monetization/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "figma",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.figma.com/docs/plugins/requiring-payment/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.figma.com/docs/plugins/requiring-payment/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.figma.com/docs/plugins/requiring-payment/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "quickbooks",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.intuit.com/app/developer/qbo/docs/go-live"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.intuit.com/app/developer/qbo/docs/go-live"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.intuit.com/app/developer/qbo/docs/go-live"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "xero",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.xero.com/pricing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": 4600000,
+            "sources": [
+              "https://developer.xero.com/pricing"
+            ],
+            "date_checked": "2026-09-09",
+            "confidence": "HIGH",
+            "kind": "FACT",
+            "note": "Official developer page states 4.6+ million global subscribers; not all are third-party app buyers.",
+            "unit": "subscribers",
+            "scope": "platform-wide",
+            "relation": "at_least"
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.xero.com/pricing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "monday",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.monday.com/apps/docs/subscriptions-payments-and-billing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.monday.com/apps/docs/subscriptions-payments-and-billing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.monday.com/apps/docs/subscriptions-payments-and-billing"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "wix",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.wixanswers.com/kb/en/article/about-wix-app-market-revenue-share-changes"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.wixanswers.com/kb/en/article/about-wix-app-market-revenue-share-changes"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.wixanswers.com/kb/en/article/about-wix-app-market-revenue-share-changes"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "bigcommerce",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.bigcommerce.com/docs/integrations/apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.bigcommerce.com/docs/integrations/apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.bigcommerce.com/docs/integrations/apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "prestashop",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://devdocs.prestashop-project.org/9/modules/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://devdocs.prestashop-project.org/9/modules/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://devdocs.prestashop-project.org/9/modules/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "shopware",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.shopware.com/docs/guides/plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.shopware.com/docs/guides/plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.shopware.com/docs/guides/plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "magento",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "opencart",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://docs.opencart.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://docs.opencart.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://docs.opencart.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "odoo",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://apps.odoo.com/apps/vendor-guidelines"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://apps.odoo.com/apps/vendor-guidelines"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://apps.odoo.com/apps/vendor-guidelines"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "bubble",
+        "metrics": {
+          "app_count": {
+            "value": 7471,
+            "kind": "FACT",
+            "confidence": "MEDIUM",
+            "sources": [
+              "https://bubble.io/plugins"
+            ],
+            "date_checked": "2026-09-09",
+            "unit": "plugins",
+            "scope": "official-catalog-results",
+            "relation": "exact",
+            "note": "Official catalog result count at manual check; includes multiple plugin types and free products, not paid software only."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://manual.bubble.io/account-and-marketplace/marketplace-policies"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://manual.bubble.io/account-and-marketplace/marketplace-policies"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "webflow",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.webflow.com/apps/docs/getting-started-apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.webflow.com/apps/docs/getting-started-apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.webflow.com/apps/docs/getting-started-apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "framer",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://www.framer.com/developers/plugins-introduction"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://www.framer.com/developers/plugins-introduction"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://www.framer.com/developers/plugins-introduction"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "miro",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.miro.com/docs/monetization"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": 60000000,
+            "sources": [
+              "https://developers.miro.com/docs/monetization"
+            ],
+            "date_checked": "2026-09-09",
+            "confidence": "HIGH",
+            "kind": "FACT",
+            "note": "Monetization guide describes 60M+ users; marketing lower bound, not active buyers.",
+            "unit": "registered users",
+            "scope": "platform-wide",
+            "relation": "at_least"
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.miro.com/docs/monetization"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "slack",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://docs.slack.dev/slack-marketplace/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://docs.slack.dev/slack-marketplace/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://docs.slack.dev/slack-marketplace/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "zoom",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.zoom.us/docs/distribute/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.zoom.us/docs/distribute/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.zoom.us/docs/distribute/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "zendesk",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "freshworks",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "hubspot",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.hubspot.com/docs/apps/developer-platform/list-apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.hubspot.com/docs/apps/developer-platform/list-apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.hubspot.com/docs/apps/developer-platform/list-apps"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "pipedrive",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://pipedrive.readme.io/docs/marketplace-app-approval-process"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://pipedrive.readme.io/docs/marketplace-app-approval-process"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://pipedrive.readme.io/docs/marketplace-app-approval-process"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "zoho",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://www.zoho.com/marketplace/help-guide/developing-extension.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://www.zoho.com/marketplace/help-guide/developing-extension.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://www.zoho.com/marketplace/help-guide/developing-extension.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "coda",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://help.coda.io/hc/en-us/articles/39555971447053-Sell-your-Packs-on-Coda"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://help.coda.io/hc/en-us/articles/39555971447053-Sell-your-Packs-on-Coda"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://help.coda.io/hc/en-us/articles/39555971447053-Sell-your-Packs-on-Coda"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "airtable",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://airtable.com/developers/extensions"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://airtable.com/developers/extensions"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://airtable.com/developers/extensions"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "obsidian",
+        "metrics": {
+          "app_count": {
+            "value": 7540,
+            "sources": [
+              "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
+            ],
+            "date_checked": "2026-09-12",
+            "kind": "FACT",
+            "confidence": "HIGH",
+            "note": "Entries in the official community plugin registry; not paid plugins, active users or sales.",
+            "unit": "plugins",
+            "scope": "obsidian-official-registry",
+            "relation": "exact"
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://obsidian.md/blog/future-of-plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://obsidian.md/blog/future-of-plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "raycast",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.raycast.com/basics/publish-an-extension"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.raycast.com/basics/publish-an-extension"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.raycast.com/basics/publish-an-extension"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "elgato",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://docs.elgato.com/monetization/revenue-share/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://docs.elgato.com/monetization/revenue-share/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://docs.elgato.com/monetization/revenue-share/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "adobe",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.adobe.com/premiere-pro/uxp/plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.adobe.com/premiere-pro/uxp/plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.adobe.com/premiere-pro/uxp/plugins/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "sketchup",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.sketchup.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.sketchup.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.sketchup.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "autodesk",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://aps.autodesk.com/app-store/app-store-getting-started"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://aps.autodesk.com/app-store/app-store-getting-started"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://aps.autodesk.com/app-store/app-store-getting-started"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "blender",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://docs.blender.org/manual/en/latest/advanced/extensions/index.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://docs.blender.org/manual/en/latest/advanced/extensions/index.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://docs.blender.org/manual/en/latest/advanced/extensions/index.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "superhive",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://support.superhivemarket.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://support.superhivemarket.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://support.superhivemarket.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "unity",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://assetstore.unity.com/publishing/publish-and-sell-assets"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://assetstore.unity.com/publishing/publish-and-sell-assets"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://assetstore.unity.com/publishing/publish-and-sell-assets"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "fab",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://dev.epicgames.com/documentation/en-us/fab/publisher-get-started-in-fab"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://dev.epicgames.com/documentation/en-us/fab/publisher-get-started-in-fab"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://dev.epicgames.com/documentation/en-us/fab/publisher-get-started-in-fab"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "builtbybit",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://builtbybit.com/wiki/creator-program/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://builtbybit.com/wiki/creator-program/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://builtbybit.com/wiki/creator-program/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "home-assistant",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developers.home-assistant.io/docs/creating_integration_manifest/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developers.home-assistant.io/docs/creating_integration_manifest/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developers.home-assistant.io/docs/creating_integration_manifest/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "homey",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://apps.developer.homey.app/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://apps.developer.homey.app/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://apps.developer.homey.app/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "synology",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://help.synology.com/developer-guide/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://help.synology.com/developer-guide/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://help.synology.com/developer-guide/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "qnap",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://www.qnap.com/en/developer/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://www.qnap.com/en/developer/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://www.qnap.com/en/developer/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "openwrt",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://openwrt.org/docs/guide-developer/packages"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://openwrt.org/docs/guide-developer/packages"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://openwrt.org/docs/guide-developer/packages"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "grafana",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://grafana.com/developers/plugin-tools/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://grafana.com/developers/plugin-tools/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://grafana.com/developers/plugin-tools/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "splunk",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://dev.splunk.com/enterprise/docs/releaseapps/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://dev.splunk.com/enterprise/docs/releaseapps/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://dev.splunk.com/enterprise/docs/releaseapps/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "servicenow",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.servicenow.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.servicenow.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.servicenow.com/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "moodle",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://moodledev.io/general/community/plugincontribution"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://moodledev.io/general/community/plugincontribution"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://moodledev.io/general/community/plugincontribution"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "nextcloud",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://docs.nextcloud.com/server/latest/developer_manual/app_publishing_maintenance/index.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://docs.nextcloud.com/server/latest/developer_manual/app_publishing_maintenance/index.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://docs.nextcloud.com/server/latest/developer_manual/app_publishing_maintenance/index.html"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "apple",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.apple.com/programs/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.apple.com/programs/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.apple.com/programs/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "microsoft-store",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/windows/apps/publish/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/windows/apps/publish/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://learn.microsoft.com/en-us/windows/apps/publish/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "firefox",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://extensionworkshop.com/documentation/publish/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://extensionworkshop.com/documentation/publish/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://extensionworkshop.com/documentation/publish/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "thunderbird",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://developer.thunderbird.net/add-ons/about-add-ons"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://developer.thunderbird.net/add-ons/about-add-ons"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://developer.thunderbird.net/add-ons/about-add-ons"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "libreoffice",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://api.libreoffice.org/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://api.libreoffice.org/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://api.libreoffice.org/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      },
+      {
+        "id": "qgis",
+        "metrics": {
+          "app_count": {
+            "value": null,
+            "sources": [
+              "https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "users": {
+            "value": null,
+            "sources": [
+              "https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          },
+          "publishers": {
+            "value": null,
+            "sources": [
+              "https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/"
+            ],
+            "date_checked": null,
+            "confidence": "LOW",
+            "kind": "INFERENCE",
+            "note": "Not verified in this baseline. Do not interpret missing data as zero or no restriction."
+          }
+        }
+      }
+    ]
   }
 ]
