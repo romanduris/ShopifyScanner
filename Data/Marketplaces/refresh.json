@@ -1,13 +1,13 @@
 {
-  "attempted_at": "2026-09-25T10:11:51.392506+00:00",
+  "attempted_at": "2026-09-26T09:51:56.719828+00:00",
   "adapters": {
     "wordpress": {
       "status": "success",
-      "date_checked": "2026-09-25"
+      "date_checked": "2026-09-26"
     },
     "obsidian": {
       "status": "success",
-      "date_checked": "2026-09-25"
+      "date_checked": "2026-09-26"
     }
   }
 }
